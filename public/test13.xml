@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Word Matching">
+		<qtype>Arrange Order</qtype>
+		<qtext>Order these regular activities</qtext>
+		<qamount>5</qamount>
+		<q id="1">Has</q>
+		<q id="2">Niki</q>
+                <q id="3">The</q>
+                <q id="4">SVN</q>
+                <q id="5">Broken</q>
+		<asw>2,1,5,3,4</asw>
+		<weight>10</weight>	
+    	</question>

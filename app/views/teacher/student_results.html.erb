@@ -1,0 +1,21 @@
+<%= flash[:notice] %>
+<h2>Viewing Student Results </h2>
+  <p><h3>Exam: <%=h @st_exam.get_exam_information %></h3></p>
+  <% results = Array.new(@st_exam.results); %>
+<%= form_tag '/teacher/student_results/' + @st_exam.id.to_s %>
+    <% for result in results %>
+        <% unless result.question.get_type == :master %>
+        <p>
+          <b><%= ExamQuestion.find_by_exam_id_and_question_id(@st_exam.exam.id, result.question.id).position %>:</b> <%=h result.question.get_question.to_s %><br />
+      Response: <span class=<%= "\"" + result.is_correct + "\"" %>>
+                <%=h result.get_answer.to_s %></span><br />
+      Correct Answer: <%=h result.question.get_answer.to_s %><br />
+      <%= "Marked: " + result.score unless result.score.nil? %><br />
+      <%= mark_box(result) %>
+      </p>
+      <% end %>
+    <% end %>
+    <%= submit_tag "Submit Marks" %><br />
+      </form>
+      <%= button_to "Back", {:action=>:exam_results, :id=>@st_exam.exam.id} %>
+      

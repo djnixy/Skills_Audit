@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q6Numeracy.xml
+    Created on : October 22, 2008, 11:17 AM
+    Author     : Niki Akbar
+    Description: True or False
+-->
+
+<question category="Numeracy" subcategory="Place Value">
+    <qtype>True False</qtype>
+    <qtext>
+        True or false?
+        5.08 > 5.2
+    </qtext>
+    <qamount>2</qamount>
+    <qsummary>Numeracy: true false greater than</qsummary>
+    <q id="1">True</q>
+    <q id="2">False</q>
+    <asw>2</asw>
+    <weight>10</weight>	
+</question>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3q4Culinary.xml
+    Created on : October 22, 2008, 1:14 PM
+    Author     : Niki Akbar
+    Description: Short Answer
+-->
+
+<question category="Numeracy" subcategory="Ratio">
+    <qtype multipart="slave">Short Answer</qtype>
+    <qtext>
+    You need to make this recipe for 20 people.  
+    How much chicken will you use (in kilograms)?
+    </qtext>
+    <qamount>0</qamount>
+    <qsummary>Culinary slave question: Short answer weight and ratios, how much chicken</qsummary>
+
+    <asw>2.5</asw>
+    <weight>10</weight>	
+</question>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3CulinaryPassage.xml
+    Created on : October 22, 2008, 12:57 PM
+    Author     : Niki Akbar
+    Description: Passage for exam 3 part 2
+-->
+
+<question category="Literacy" subcategory="Passage">
+    <qtype multipart="master">Multipart</qtype>
+    <qtext><![CDATA[
+        <h2>Chicken and corn soup</h2>
+
+        <u>Ingredients</u>
+
+        <ul>
+            <li>1.5 L water</li>
+            <li>500 g chicken drumsticks</li>
+            <li>one onion</li>
+            <li>half a bunch spring onions</li>
+            <li>440 gm canned cream corn</li>
+            <li>2 chicken stock cubes</li>
+            <li>15 mL soy sauce</li>
+        </ul>
+
+        <u>Method</u>
+        <p>
+        Place water and chicken in saucepan.  Add sliced onion.  <br />
+        Simmer for 30 minutes.  Strain the liquid into a large bowl.  <br />
+        Skin and chop chicken, discarding bones.  Returned chicken and liquid to saucepan.  <br />
+        Finely slice spring onions, and add, along with the corn.  Add stock cubes and soy sauce.  <br />
+        Stir until boiling.  Serve in deep plates while very hot. SERVES 4.  <br />
+        </p>
+        ]]>
+    </qtext>
+    <qsummary>Culinary test master text</qsummary>
+</question>
+

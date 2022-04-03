@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1q5Shiftwork.xml
+    Created on : October 13, 2008, 11:25 AM
+    Author     : Niki Akbar
+    Description: True or False
+-->
+
+<question category="Literacy" subcategory="True False">
+    <qtype multipart="slave">True False</qtype>
+    <qtext>
+        Distruption to biological rhythms are most evident when you are required to 
+        work through the night.
+    </qtext>
+    <qamount>2</qamount>
+    <qsummary>Jobs involving shiftwork slave: True false on biological rhythm disruptions</qsummary>
+    
+    <q id="1">True</q>
+    <q id="2">False</q>
+    
+    <asw>2</asw>
+    <weight>10</weight>	
+</question>

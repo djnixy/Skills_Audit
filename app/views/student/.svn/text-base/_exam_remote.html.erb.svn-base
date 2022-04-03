@@ -1,0 +1,55 @@
+<%=h @student.display_details %> <br />
+<%=h @question.display_details %> <br />
+<%=h @st_exam.display_details %> <br />
+
+    <div id="content">
+    <div id="notice">
+  <%= flash[:notice] %>
+  </div>
+  <p>
+<%=h @question.get_question %>
+</p>
+<% form_remote_for @result, :url => { :action => "answer_remote", :sortable_xhr => :false }, :update => 'exam_div' do |f| %>
+    <%= hidden_field("question_id", @question.id) %>
+    <% unless @question.get_choice_amount == 0 %>
+      <% i = 0; x = @question.get_choice_amount; until i == x %>
+          <%= f.radio_button :answer, i+1 %>
+          
+<span class="questionChoice">
+          <%=h @question.get_choice(i+1) %>
+</span>
+          <% i += 1 %>
+          
+          <br />
+      <% end %>
+    <% else %>
+        <%= f.text_field :answer %><br />
+    <% end %>
+    <% unless @st_exam.exam.skippable == false %>
+    <span class="skip">
+        <%= f.radio_button :answer, 0 %>  I dont know this answer.
+      </span>
+    <% end %>
+    
+    <%= f.submit 'Next Question', :class => "submit"  %>
+    
+<% end %>
+
+<script type="text/javascript">
+onload=timeout()
+</script>
+
+
+
+<br />
+<button type= "submit" class="positive" onclick="toggleLayer('commentForm')" > 
+        <img src="ico_large_question.png" alt="" />Help
+        </button> 
+      </div>
+    <div id="commentForm">
+	<object type="application/x-shockwave-flash" data="/flash/<%=h @question.get_type.to_s %>.swf"  width="550" height="400" id="simplemovie" >
+    	<param name="movie" value="/flash/<%=h @question.get_type.to_s %>.swf" /> 
+		<param name="loop" value="false" />
+	</object>
+</div>
+

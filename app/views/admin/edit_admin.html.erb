@@ -1,0 +1,37 @@
+<h1>Edit Admin</h1>
+
+<%= error_messages_for :admin %>
+
+<% form_for @admin, :url => { :action => "update_admin", :controller => :admin } do |f| %>
+
+<%# get id %>
+<input id="id" name="id" type="hidden" value="<%= @admin.id %>" />
+
+  <p>
+    <b>Login ID</b><br />
+    <%= f.text_field :login_id %>
+  </p>
+
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name %>
+  </p>
+
+<!--  
+  <p>
+    <b>Hashed password</b><br />
+    <%= f.text_field :hashed_password %>
+  </p>
+
+  <p>
+    <b>Salt</b><br />
+    <%= f.text_field :salt %>
+  </p>
+  -->
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', :action => :show_admin, :id => @admin.id %> |
+<%= link_to 'Back', :action => :index %>

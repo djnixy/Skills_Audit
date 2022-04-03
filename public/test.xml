@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Numeracy" subcategory="Decimal">
+		<qtype>Multiple Choice</qtype>
+		<qtext>28.3 + 6 = </qtext>
+		<qamount>4</qamount>
+		<q id="1">34.3</q>
+		<q id="2">23.3</q>
+		<q id="3">33.3</q>
+		<q id="4">56.7</q>
+		<asw>1</asw>
+		<weight>10</weight>	
+    	</question>

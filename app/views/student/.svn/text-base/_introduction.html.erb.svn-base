@@ -1,0 +1,9 @@
+<% if @introduction == 1 %>
+You have a test available! Click the button to begin.<br /><br />
+<br />
+<%= link_to_remote( "Start", :update => 'exam_div', :url =>{ :action => :exam_remote, :id => @st_exam.exam.get_first_q }) %>
+<% else %>
+You do not have a test available. Thankyou for participating.<br /><br />
+<a href="/">Back to main</a>
+<% end %>
+

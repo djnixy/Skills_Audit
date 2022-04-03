@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<question category="Decimal" choices="4">
+                <qtype multipart="master">Multipart</qtype>
+                <qtext>master1</qtext>
+                <qsummary>Test master</qsummary>
+   	</question>

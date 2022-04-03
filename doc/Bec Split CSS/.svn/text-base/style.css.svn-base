@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+<!--
+body {
+  font:normal 12px verdana;
+  margin: 4px;
+  padding: 5px;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+object {/*visibility:hidden;*/}
+
+h1 {color:#00A7BF;	font-size:20px;}
+h2 {color:#00A7BF;	font-size:18px;}	
+h3 {color:#00A7BF;	font-size:16px;}
+h4 {color:#00A7BF;	font-size:12px;}
+
+.correct{color: green;}
+.incorrect{color: red;}
+.answer{color: blue;}
+
+tr, td {padding: 3px;}
+ul, li {font-weight: normal;}
+
+#header h1 {text-indent: -9999px;}
+#header {
+  background: url(images/header.jpg);
+  height: 216px;
+  width: 966px;
+  z-index: 1;
+}
+	
+#menu {
+float: left;
+margin: -130px 0 0 820px}
+
+#container {
+background: url(images/background.jpg) repeat-y;
+width: 880px;
+min-height: 300px;
+margin: -80px 0 0 86px;
+padding-bottom: 30px; 
+}
+
+#content {
+padding: 0 0 0 30px;}
+
+#footer {
+background: url(images/footer.jpg) no-repeat;
+width: 880px;
+height: 39px;
+margin: -20px 0 0 86px;}
+
+#junk {display: none;}
+
+#question{
+width: 300px; 
+color: #000;
+font-weight: bold; 
+top: 150px;
+left: 130px;
+float: left;
+position: absolute; 
+z-index: 5;
+}
+
+#answer { 
+width: 430px;
+margin-left: 330px;
+padding-left: 30px;
+border-left: 1px solid #000;
+}
+
+.questionChoice, #njs {line-height: 30px;}
+
+#buttons {position: absolute; top: 250px; left: 130px;}
+#helpbutton {position: absolute; top: 290px; left: 125px;}
+#buttons, #skip, #submitdiv {display: inline;}
+
+.mouseoverclass {font-size: 20px;}
+
+#helpbutton button {
+height: 25px; 
+background: url(images/buttonendcap.jpg) no-repeat scroll top right;
+display: block; 
+margin-right: 6px;
+padding-right: 8px;
+color: #FFF; 
+font-weight: bold; 
+border: 0;
+cursor: pointer;}
+
+#helpbutton button span {
+background: url(images/spanhelp.jpg) no-repeat top left;
+display: block; 
+line-height: 15px; 
+padding: 5px 0 5px 30px; 
+margin-top: -3px;}
+
+#helpbutton button:hover {background-position: bottom right;}
+#helpbutton button:hover span {background-position: bottom left;}
+
+
+div#commentForm {    
+float:right; width:800px; 
+margin: 0px 20px 0px 20px;  
+display:none;}

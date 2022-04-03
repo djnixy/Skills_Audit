@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Geography">
+		<qtype>Multiple Choice</qtype>
+		<qtext>What continent is France on?</qtext>
+		<qamount>3</qamount>
+                <qsummary>Multiple choice demo</qsummary>
+		<q id="1">Europe</q>
+		<q id="2">Africa</q>
+		<q id="3">North America</q>
+		<asw>1</asw>
+		<weight>10</weight>	
+    	</question>

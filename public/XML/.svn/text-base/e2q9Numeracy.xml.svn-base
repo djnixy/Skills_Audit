@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q9Numeracy.xml
+    Created on : October 22, 2008, 11:21 AM
+    Author     : Niki Akbar
+    Description: Metric Conversion
+-->
+
+<question category="Numeracy" subcategory="Metric Conversion">
+    <qtype>Short Answer</qtype>
+    <qtext>Change into kilograms:  2.6 tonne</qtext>
+    <qamount>0</qamount>
+    <qsummary>Short answer: change tonnes into kilograms</qsummary>
+    <asw>2600</asw>
+    <weight>10</weight>	
+</question>

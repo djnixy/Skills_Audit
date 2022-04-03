@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q5Numeracy.xml
+    Created on : October 22, 2008, 11:16 AM
+    Author     : Niki Akbar
+    Description: Numeracy questions Question 5
+-->
+
+<question category="Numeracy" subcategory="Zero">
+    <qtype>Short Answer</qtype>
+    <qtext>0 ÷ 8 =</qtext>
+    <qamount>0</qamount>
+    <qsummary>Numeracy short answer: Division</qsummary>
+    <asw>0</asw>
+    <weight>10</weight>	
+</question>

@@ -1,0 +1,9 @@
+
+<% @st_exam.end_exam %>
+<div class="examend">
+You have finished your exam.<br />
+<br />
+<br />
+<% link_to "Back to Introduction", :action => :introduction %>
+<%#= link_to "View Results", :action => :last_results %>
+</div>

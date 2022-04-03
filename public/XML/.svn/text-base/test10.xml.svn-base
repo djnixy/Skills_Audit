@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Wrong Word">
+		<qtype>Spelling</qtype>
+		<qtext>Select the correct spelling for the following words:</qtext>
+		<qamount>3</qamount>
+                <qsummary>Spelling demo</qsummary>
+		<q id="1" subid="1">apple</q>
+		<q id="1" subid="2">aple</q>
+                <q id="1" subid="3">aplle</q>
+                <q id="2" subid="1">bannana</q>
+		<q id="2" subid="2">banana</q>
+                <q id="2" subid="3">bananna</q>
+                <q id="3" subid="1">ohrange</q>
+		<q id="3" subid="2">owrange</q>
+                <q id="3" subid="3">orange</q>
+		<asw>1,2,3</asw>
+		<weight>10</weight>	
+    	</question>

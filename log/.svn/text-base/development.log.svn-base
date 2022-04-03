@@ -1,0 +1,288 @@
+
+
+Processing AdminController#add_choices (for 127.0.0.1 at 2008-12-01 12:24:12) [POST]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"choice_input"=>["sg", "sdfsd", "aaas", "dffa"], "commit"=>"Submit", "controller"=>"admin", "action"=>"add_choices", "id"=>"77"}
+  [4;36;1mAdmin Columns (0.106906)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.002827)[0m   [0mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;36;1mQuestion Columns (0.015686)[0m   [0;1mSHOW FIELDS FROM `questions`[0m
+  [4;35;1mQuestion Load (0.000327)[0m   [0mSELECT * FROM `questions` WHERE (`questions`.`id` = '77') LIMIT 1[0m
+addchoice(sg)
+get_xml(77)
+  [4;36;1mSQL (0.000193)[0m   [0;1mBEGIN[0m
+  [4;35;1mQuestion Update (0.010906)[0m   [0mUPDATE `questions` SET `created_at` = '2008-12-01 11:53:57', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e31333c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2735273e73673c2f713e3c712069643d2736273e73646673643c2f713e3c712069643d2737273e73673c2f713e3c712069643d2738273e73646673643c2f713e3c712069643d2739273e73673c2f713e3c712069643d273130273e73646673643c2f713e3c712069643d273131273e616161733c2f713e3c712069643d273132273e646666613c2f713e3c712069643d273133273e73673c2f713e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:24:20' WHERE `id` = 77[0m
+  [4;36;1mSQL (0.057892)[0m   [0;1mCOMMIT[0m
+addchoice(sdfsd)
+get_xml(77)
+  [4;35;1mSQL (0.001631)[0m   [0mBEGIN[0m
+  [4;36;1mQuestion Update (0.036689)[0m   [0;1mUPDATE `questions` SET `created_at` = '2008-12-01 11:53:57', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e31343c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2735273e73673c2f713e3c712069643d2736273e73646673643c2f713e3c712069643d2737273e73673c2f713e3c712069643d2738273e73646673643c2f713e3c712069643d2739273e73673c2f713e3c712069643d273130273e73646673643c2f713e3c712069643d273131273e616161733c2f713e3c712069643d273132273e646666613c2f713e3c712069643d273133273e73673c2f713e3c712069643d273134273e73646673643c2f713e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:24:20' WHERE `id` = 77[0m
+  [4;35;1mSQL (0.042705)[0m   [0mCOMMIT[0m
+addchoice(aaas)
+get_xml(77)
+  [4;36;1mSQL (0.000152)[0m   [0;1mBEGIN[0m
+  [4;35;1mQuestion Update (0.054053)[0m   [0mUPDATE `questions` SET `created_at` = '2008-12-01 11:53:57', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e31353c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2735273e73673c2f713e3c712069643d2736273e73646673643c2f713e3c712069643d2737273e73673c2f713e3c712069643d2738273e73646673643c2f713e3c712069643d2739273e73673c2f713e3c712069643d273130273e73646673643c2f713e3c712069643d273131273e616161733c2f713e3c712069643d273132273e646666613c2f713e3c712069643d273133273e73673c2f713e3c712069643d273134273e73646673643c2f713e3c712069643d273135273e616161733c2f713e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:24:21' WHERE `id` = 77[0m
+  [4;36;1mSQL (0.036930)[0m   [0;1mCOMMIT[0m
+addchoice(dffa)
+get_xml(77)
+  [4;35;1mSQL (0.000302)[0m   [0mBEGIN[0m
+  [4;36;1mQuestion Update (0.045881)[0m   [0;1mUPDATE `questions` SET `created_at` = '2008-12-01 11:53:57', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e31363c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2735273e73673c2f713e3c712069643d2736273e73646673643c2f713e3c712069643d2737273e73673c2f713e3c712069643d2738273e73646673643c2f713e3c712069643d2739273e73673c2f713e3c712069643d273130273e73646673643c2f713e3c712069643d273131273e616161733c2f713e3c712069643d273132273e646666613c2f713e3c712069643d273133273e73673c2f713e3c712069643d273134273e73646673643c2f713e3c712069643d273135273e616161733c2f713e3c712069643d273136273e646666613c2f713e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:24:21' WHERE `id` = 77[0m
+  [4;35;1mSQL (0.050525)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/admin
+Completed in 7.41065 (0 reqs/sec) | DB: 0.46361 (6%) | 302 Found [http://localhost/admin/add_choices/77]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2008-12-01 12:24:22) [GET]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+  [4;36;1mAdmin Columns (0.002905)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.001769)[0m   [0mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;36;1mStudent Load (0.015060)[0m   [0;1mSELECT * FROM `students` ORDER BY login_id[0m
+  [4;35;1mTeacher Load (0.050484)[0m   [0mSELECT * FROM `teachers` ORDER BY login_id[0m
+  [4;36;1mAdmin Load (0.000402)[0m   [0;1mSELECT * FROM `admins` ORDER BY login_id[0m
+Rendering template within layouts/admin
+Rendering admin/index
+  [4;35;1mStudent Columns (0.003558)[0m   [0mSHOW FIELDS FROM `students`[0m
+  [4;36;1mStudentExam Load (0.014628)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 3) [0m
+  [4;35;1mStudentExam Columns (0.002683)[0m   [0mSHOW FIELDS FROM `student_exams`[0m
+  [4;36;1mExam Columns (0.019665)[0m   [0;1mSHOW FIELDS FROM `exams`[0m
+  [4;35;1mExam Load (0.000668)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mExam Load (0.000676)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mExam Load (0.001143)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.000922)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.001230)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mExam Load (0.000897)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 3) [0m
+  [4;36;1mExam Load (0.000626)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.001098)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mExam Load (0.001007)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 6) [0m
+  [4;35;1mExam Load (0.001136)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 7) [0m
+  [4;36;1mExam Load (0.000929)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 8) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mTeacher Columns (0.003497)[0m   [0;1mSHOW FIELDS FROM `teachers`[0m
+Completed in 1.33711 (0 reqs/sec) | Rendering: 0.52706 (39%) | DB: 0.12498 (9%) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#save_new_question (for 127.0.0.1 at 2008-12-01 12:25:04) [POST]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"q_text"=>"dhd", "q_type"=>"Multiple Choice", "q_choices"=>"4", "q_weight"=>"a", "q_answer"=>"a", "question_type"=>"Numeracy", "q_subcategory"=>"aaa", "q_status"=>"1", "commit"=>"Add Question", "controller"=>"admin", "action"=>"save_new_question"}
+  [4;35;1mAdmin Columns (0.003252)[0m   [0mSHOW FIELDS FROM `admins`[0m
+  [4;36;1mAdmin Load (0.000808)[0m   [0;1mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;35;1mQuestion Columns (0.002327)[0m   [0mSHOW FIELDS FROM `questions`[0m
+  [4;36;1mSQL (-0.000892)[0m   [0;1mBEGIN[0m
+  [4;35;1mQuestion Create (0.093155)[0m   [0mINSERT INTO `questions` (`created_at`, `depreciated`, `master_id`, `q_data`, `question_type`, `updated_at`) VALUES('2008-12-01 12:25:05', 0, NULL, x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e303c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c2f7175657374696f6e3e', NULL, '2008-12-01 12:25:05')[0m
+  [4;36;1mSQL (0.048857)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000210)[0m   [0mBEGIN[0m
+  [4;36;1mQuestion Update (0.000096)[0m   [0;1mUPDATE `questions` SET `created_at` = '2008-12-01 12:25:05', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e303c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:25:05' WHERE `id` = 78[0m
+  [4;35;1mSQL (0.001380)[0m   [0mCOMMIT[0m
+question: #<Question id: 78, depreciated: false, q_data: "<question subcategory='aaa'><qtype>Multiple Choice<...", master_id: nil, question_type: nil, created_at: "2008-12-01 12:25:05", updated_at: "2008-12-01 12:25:05">
+Make question success
+get_xml(78)
+Redirecting to add_choices
+Redirected to http://localhost:3000/admin/add_choices/78?choices=4
+Completed in 0.54320 (1 reqs/sec) | DB: 0.14919 (27%) | 302 Found [http://localhost/admin/save_new_question]
+
+
+Processing AdminController#add_choices (for 127.0.0.1 at 2008-12-01 12:25:06) [GET]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"choices"=>"4", "controller"=>"admin", "action"=>"add_choices", "id"=>"78"}
+  [4;36;1mAdmin Columns (0.002757)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.001477)[0m   [0mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;36;1mQuestion Columns (0.001504)[0m   [0;1mSHOW FIELDS FROM `questions`[0m
+  [4;35;1mQuestion Load (0.000768)[0m   [0mSELECT * FROM `questions` WHERE (`questions`.`id` = '78') LIMIT 1[0m
+get_xml(78)
+Rendering template within layouts/admin
+Rendering admin/add_choices
+4
+4
+4
+4
+Completed in 0.54043 (1 reqs/sec) | Rendering: 0.37075 (68%) | DB: 0.00651 (1%) | 200 OK [http://localhost/admin/add_choices/78?choices=4]
+
+
+Processing AdminController#add_choices (for 127.0.0.1 at 2008-12-01 12:25:14) [POST]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"choice_input"=>["gfsd", "ssd", "dfffa", "aaass"], "commit"=>"Submit", "controller"=>"admin", "action"=>"add_choices", "id"=>"78"}
+  [4;36;1mAdmin Columns (0.002023)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.001596)[0m   [0mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;36;1mQuestion Columns (0.001687)[0m   [0;1mSHOW FIELDS FROM `questions`[0m
+  [4;35;1mQuestion Load (0.004534)[0m   [0mSELECT * FROM `questions` WHERE (`questions`.`id` = '78') LIMIT 1[0m
+addchoice(gfsd)
+get_xml(78)
+  [4;36;1mSQL (0.000289)[0m   [0;1mBEGIN[0m
+  [4;35;1mQuestion Update (0.065783)[0m   [0mUPDATE `questions` SET `created_at` = '2008-12-01 12:25:05', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e313c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2731273e676673643c2f713e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:25:14' WHERE `id` = 78[0m
+  [4;36;1mSQL (0.105405)[0m   [0;1mCOMMIT[0m
+addchoice(ssd)
+get_xml(78)
+  [4;35;1mSQL (-0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mQuestion Update (0.035774)[0m   [0;1mUPDATE `questions` SET `created_at` = '2008-12-01 12:25:05', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e323c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2731273e676673643c2f713e3c712069643d2732273e7373643c2f713e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:25:15' WHERE `id` = 78[0m
+  [4;35;1mSQL (0.304958)[0m   [0mCOMMIT[0m
+addchoice(dfffa)
+get_xml(78)
+  [4;36;1mSQL (-0.000625)[0m   [0;1mBEGIN[0m
+  [4;35;1mQuestion Update (0.000602)[0m   [0mUPDATE `questions` SET `created_at` = '2008-12-01 12:25:05', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e333c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2731273e676673643c2f713e3c712069643d2732273e7373643c2f713e3c712069643d2733273e64666666613c2f713e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:25:15' WHERE `id` = 78[0m
+  [4;36;1mSQL (0.052973)[0m   [0;1mCOMMIT[0m
+addchoice(aaass)
+get_xml(78)
+  [4;35;1mSQL (0.000559)[0m   [0mBEGIN[0m
+  [4;36;1mQuestion Update (0.001308)[0m   [0;1mUPDATE `questions` SET `created_at` = '2008-12-01 12:25:05', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d27616161273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e6468643c2f71746578743e3c71616d6f756e743e343c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2731273e676673643c2f713e3c712069643d2732273e7373643c2f713e3c712069643d2733273e64666666613c2f713e3c712069643d2734273e61616173733c2f713e3c2f7175657374696f6e3e', `question_type` = NULL, `updated_at` = '2008-12-01 12:25:15' WHERE `id` = 78[0m
+  [4;35;1mSQL (0.037342)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/admin
+Completed in 0.97296 (1 reqs/sec) | DB: 0.61411 (63%) | 302 Found [http://localhost/admin/add_choices/78]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2008-12-01 12:25:16) [GET]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+  [4;36;1mAdmin Columns (0.002828)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.001399)[0m   [0mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;36;1mStudent Load (0.001036)[0m   [0;1mSELECT * FROM `students` ORDER BY login_id[0m
+  [4;35;1mTeacher Load (0.002182)[0m   [0mSELECT * FROM `teachers` ORDER BY login_id[0m
+  [4;36;1mAdmin Load (0.000598)[0m   [0;1mSELECT * FROM `admins` ORDER BY login_id[0m
+Rendering template within layouts/admin
+Rendering admin/index
+  [4;35;1mStudent Columns (0.003419)[0m   [0mSHOW FIELDS FROM `students`[0m
+  [4;36;1mStudentExam Load (0.001997)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 3) [0m
+  [4;35;1mStudentExam Columns (0.002686)[0m   [0mSHOW FIELDS FROM `student_exams`[0m
+  [4;36;1mExam Columns (0.001888)[0m   [0;1mSHOW FIELDS FROM `exams`[0m
+  [4;35;1mExam Load (0.000962)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mExam Load (0.001196)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mExam Load (0.000837)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.000896)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.002827)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mExam Load (0.001232)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 3) [0m
+  [4;36;1mExam Load (0.000803)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.000672)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mExam Load (0.015203)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 6) [0m
+  [4;35;1mExam Load (0.000145)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 7) [0m
+  [4;36;1mExam Load (0.010621)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 8) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mTeacher Columns (0.001564)[0m   [0;1mSHOW FIELDS FROM `teachers`[0m
+Completed in 0.29363 (3 reqs/sec) | Rendering: 0.10795 (36%) | DB: 0.05499 (18%) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#new_question (for 127.0.0.1 at 2008-12-01 12:28:47) [POST]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"controller"=>"admin", "action"=>"new_question"}
+  [4;35;1mAdmin Columns (0.003292)[0m   [0mSHOW FIELDS FROM `admins`[0m
+  [4;36;1mAdmin Load (0.001266)[0m   [0;1mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/admin
+Rendering admin/new_question
+Completed in 0.16408 (6 reqs/sec) | Rendering: 0.09372 (57%) | DB: 0.00456 (2%) | 200 OK [http://localhost/admin/new_question]
+
+
+Processing AdminController#save_new_question (for 127.0.0.1 at 2008-12-01 12:28:56) [POST]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"q_text"=>"4", "q_type"=>"Multiple Choice", "q_choices"=>"4", "q_weight"=>"4", "q_answer"=>"4", "question_type"=>"Numeracy", "q_subcategory"=>"4", "q_status"=>"1", "commit"=>"Add Question", "controller"=>"admin", "action"=>"save_new_question"}
+  [4;35;1mAdmin Columns (0.001857)[0m   [0mSHOW FIELDS FROM `admins`[0m
+  [4;36;1mAdmin Load (0.001755)[0m   [0;1mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;35;1mQuestion Columns (0.002860)[0m   [0mSHOW FIELDS FROM `questions`[0m
+  [4;36;1mSQL (-0.000382)[0m   [0;1mBEGIN[0m
+  [4;35;1mQuestion Create (-0.000248)[0m   [0mINSERT INTO `questions` (`created_at`, `depreciated`, `master_id`, `q_data`, `question_type`, `updated_at`) VALUES('2008-12-01 12:28:56', 0, NULL, x'3c7175657374696f6e2073756263617465676f72793d2734273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e343c2f71746578743e3c71616d6f756e743e303c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c2f7175657374696f6e3e', NULL, '2008-12-01 12:28:56')[0m
+  [4;36;1mSQL (0.043219)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000559)[0m   [0mBEGIN[0m
+  [4;36;1mQuestion Update (0.001384)[0m   [0;1mUPDATE `questions` SET `created_at` = '2008-12-01 12:28:56', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d2734273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e343c2f71746578743e3c71616d6f756e743e303c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c2f7175657374696f6e3e', `question_type` = 'Numeracy', `updated_at` = '2008-12-01 12:28:56' WHERE `id` = 79[0m
+  [4;35;1mSQL (0.055163)[0m   [0mCOMMIT[0m
+question: #<Question id: 79, depreciated: false, q_data: "<question subcategory='4'><qtype>Multiple Choice</q...", master_id: nil, question_type: "Numeracy", created_at: "2008-12-01 12:28:56", updated_at: "2008-12-01 12:28:56">
+Make question success
+get_xml(79)
+Redirecting to add_choices
+Redirected to http://localhost:3000/admin/add_choices/79?choices=4
+Completed in 0.28002 (3 reqs/sec) | DB: 0.10617 (37%) | 302 Found [http://localhost/admin/save_new_question]
+
+
+Processing AdminController#add_choices (for 127.0.0.1 at 2008-12-01 12:28:57) [GET]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"choices"=>"4", "controller"=>"admin", "action"=>"add_choices", "id"=>"79"}
+  [4;36;1mAdmin Columns (0.002354)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.001398)[0m   [0mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;36;1mQuestion Columns (0.001906)[0m   [0;1mSHOW FIELDS FROM `questions`[0m
+  [4;35;1mQuestion Load (0.000574)[0m   [0mSELECT * FROM `questions` WHERE (`questions`.`id` = '79') LIMIT 1[0m
+get_xml(79)
+Rendering template within layouts/admin
+Rendering admin/add_choices
+4
+4
+4
+4
+Completed in 0.15709 (6 reqs/sec) | Rendering: 0.03585 (22%) | DB: 0.00623 (3%) | 200 OK [http://localhost/admin/add_choices/79?choices=4]
+
+
+Processing AdminController#add_choices (for 127.0.0.1 at 2008-12-01 12:29:04) [POST]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"choice_input"=>["as", "fff", "aaa", "zxzx"], "commit"=>"Submit", "controller"=>"admin", "action"=>"add_choices", "id"=>"79"}
+  [4;36;1mAdmin Columns (0.002747)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.000378)[0m   [0mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;36;1mQuestion Columns (0.002426)[0m   [0;1mSHOW FIELDS FROM `questions`[0m
+  [4;35;1mQuestion Load (0.001331)[0m   [0mSELECT * FROM `questions` WHERE (`questions`.`id` = '79') LIMIT 1[0m
+addchoice(as)
+get_xml(79)
+  [4;36;1mSQL (0.000702)[0m   [0;1mBEGIN[0m
+  [4;35;1mQuestion Update (0.000989)[0m   [0mUPDATE `questions` SET `created_at` = '2008-12-01 12:28:56', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d2734273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e343c2f71746578743e3c71616d6f756e743e313c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2731273e61733c2f713e3c2f7175657374696f6e3e', `question_type` = 'Numeracy', `updated_at` = '2008-12-01 12:29:04' WHERE `id` = 79[0m
+  [4;36;1mSQL (0.053450)[0m   [0;1mCOMMIT[0m
+addchoice(fff)
+get_xml(79)
+  [4;35;1mSQL (-0.000047)[0m   [0mBEGIN[0m
+  [4;36;1mQuestion Update (0.000098)[0m   [0;1mUPDATE `questions` SET `created_at` = '2008-12-01 12:28:56', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d2734273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e343c2f71746578743e3c71616d6f756e743e323c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2731273e61733c2f713e3c712069643d2732273e6666663c2f713e3c2f7175657374696f6e3e', `question_type` = 'Numeracy', `updated_at` = '2008-12-01 12:29:04' WHERE `id` = 79[0m
+  [4;35;1mSQL (0.031627)[0m   [0mCOMMIT[0m
+addchoice(aaa)
+get_xml(79)
+  [4;36;1mSQL (0.000833)[0m   [0;1mBEGIN[0m
+  [4;35;1mQuestion Update (0.009084)[0m   [0mUPDATE `questions` SET `created_at` = '2008-12-01 12:28:56', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d2734273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e343c2f71746578743e3c71616d6f756e743e333c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2731273e61733c2f713e3c712069643d2732273e6666663c2f713e3c712069643d2733273e6161613c2f713e3c2f7175657374696f6e3e', `question_type` = 'Numeracy', `updated_at` = '2008-12-01 12:29:04' WHERE `id` = 79[0m
+  [4;36;1mSQL (0.091146)[0m   [0;1mCOMMIT[0m
+addchoice(zxzx)
+get_xml(79)
+  [4;35;1mSQL (0.000552)[0m   [0mBEGIN[0m
+  [4;36;1mQuestion Update (-0.000406)[0m   [0;1mUPDATE `questions` SET `created_at` = '2008-12-01 12:28:56', `depreciated` = 0, `master_id` = NULL, `q_data` = x'3c7175657374696f6e2073756263617465676f72793d2734273e3c71747970653e4d756c7469706c652043686f6963653c2f71747970653e3c71746578743e343c2f71746578743e3c71616d6f756e743e343c2f71616d6f756e743e3c6173773e303c2f6173773e3c7765696768742f3e3c712069643d2731273e61733c2f713e3c712069643d2732273e6666663c2f713e3c712069643d2733273e6161613c2f713e3c712069643d2734273e7a787a783c2f713e3c2f7175657374696f6e3e', `question_type` = 'Numeracy', `updated_at` = '2008-12-01 12:29:04' WHERE `id` = 79[0m
+  [4;35;1mSQL (0.042606)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/admin
+Completed in 0.84290 (1 reqs/sec) | DB: 0.23752 (28%) | 302 Found [http://localhost/admin/add_choices/79]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2008-12-01 12:29:05) [GET]
+  Session ID: 50286f2de0248a9dcaa203c0fdb4f8a3
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+  [4;36;1mAdmin Columns (0.001917)[0m   [0;1mSHOW FIELDS FROM `admins`[0m
+  [4;35;1mAdmin Load (0.000544)[0m   [0mSELECT * FROM `admins` WHERE (`admins`.`id` = 1) LIMIT 1[0m
+  [4;36;1mStudent Load (0.001888)[0m   [0;1mSELECT * FROM `students` ORDER BY login_id[0m
+  [4;35;1mTeacher Load (0.001890)[0m   [0mSELECT * FROM `teachers` ORDER BY login_id[0m
+  [4;36;1mAdmin Load (0.001252)[0m   [0;1mSELECT * FROM `admins` ORDER BY login_id[0m
+Rendering template within layouts/admin
+Rendering admin/index
+  [4;35;1mStudent Columns (0.001612)[0m   [0mSHOW FIELDS FROM `students`[0m
+  [4;36;1mStudentExam Load (0.001102)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 3) [0m
+  [4;35;1mStudentExam Columns (0.003243)[0m   [0mSHOW FIELDS FROM `student_exams`[0m
+  [4;36;1mExam Columns (0.002192)[0m   [0;1mSHOW FIELDS FROM `exams`[0m
+  [4;35;1mExam Load (0.000439)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mExam Load (0.013035)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mExam Load (0.008923)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.001106)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.001176)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 2) [0m
+  [4;35;1mExam Load (0.001717)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 3) [0m
+  [4;36;1mExam Load (0.007790)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mStudentExam Load (0.000645)[0m   [0;1mSELECT * FROM `student_exams` WHERE (student_exams.student_id = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 5) [0m
+  [4;36;1mExam Load (0.001285)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 6) [0m
+  [4;35;1mExam Load (0.000516)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 7) [0m
+  [4;36;1mExam Load (0.001060)[0m   [0;1mSELECT * FROM `exams` WHERE (`exams`.`id` = 8) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exams` WHERE (`exams`.`id` = 1) [0m
+  [4;36;1mTeacher Columns (0.001971)[0m   [0;1mSHOW FIELDS FROM `teachers`[0m
+Completed in 0.29201 (3 reqs/sec) | Rendering: 0.11290 (38%) | DB: 0.05530 (18%) | 200 OK [http://localhost/admin]

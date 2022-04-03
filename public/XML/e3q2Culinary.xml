@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3q2Culinary.xml
+    Created on : October 22, 2008, 1:08 PM
+    Author     : Niki Akbar
+    Description: Short Answer
+-->
+
+<question category="Numeracy" subcategory="">
+    <qtype multipart="slave">Short Answer</qtype>
+    <qtext>Instead of the 440 mg can of corn, you can use two fresh cobs of corn.  
+    Approximately what weight of corn does that mean per cob of corn? </qtext>
+    <qamount>0</qamount>
+    <qsummary>Culinary salve question: Short answer Equivalent weights + ratios</qsummary>
+
+    <asw>220</asw>
+    <weight>10</weight>	
+</question>

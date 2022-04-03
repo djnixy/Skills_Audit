@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="History">
+		<qtype>Long Answer</qtype>
+		<qtext>What is a widely used sentence involving a quick brown fox and a lazy dog which uses every letter of the alphabet?</qtext>
+		<qamount>0</qamount>
+                <qsummary>Long answer demo</qsummary>
+		<asw>The quick brown fox jumps over the lazy dog</asw>
+		<weight>10</weight>	
+    	</question>

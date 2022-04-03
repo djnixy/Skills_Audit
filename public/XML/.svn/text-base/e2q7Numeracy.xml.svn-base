@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q7Numeracy.xml
+    Created on : October 22, 2008, 11:18 AM
+    Author     : Niki Akbar
+    Description: Order of operations
+-->
+
+<question category="Numeracy" subcategory="Order of operations">
+    <qtype>Short Answer</qtype>
+    <qtext>25 - 6 x 3 =</qtext>
+    <qamount>0</qamount>
+    <qsummary>Short answer: Subtraction and multiplication</qsummary>
+    <asw>7</asw>
+    <weight>10</weight>	
+</question>

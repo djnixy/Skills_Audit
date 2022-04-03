@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1q1Shiftwork.xml
+    Created on : October 20, 2008, 3:51 PM
+    Author     : Niki Akbar
+    Description: Multiple Short Answer
+-->
+
+<question category="Literacy" subcategory="Meanings">
+    <qtype multipart="slave">Multiple Short Answer</qtype>
+    <qtext>The following four words are bolded in the passage. 
+    Write the meanings of the words ‘as used in the passage’.
+    </qtext>
+    <qamount>4</qamount>
+    <qsummary>Job involving shiftwork slave: multiple short answers</qsummary>
+
+    <q id="1">Increasing</q>
+    <q id="2">Continuous</q>
+    <q id="3">Poor</q>
+    <q id="4">Benefits</q>
+    
+    <asw></asw>
+    <weight>10</weight>	
+</question>

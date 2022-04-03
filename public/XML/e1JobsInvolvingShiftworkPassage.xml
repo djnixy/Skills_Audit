@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1JobsInvolvingShiftworkPassage.xml
+    Created on : October 12, 2008, 11:00 AM
+    Author     : Niki Akbar
+    Description: Reading passage Shifwork
+-->
+
+<question category="Literacy" subcategory="Passage">
+    <qtype multipart="master">Multipart</qtype>
+    <qtext><![CDATA[
+       <h2>Jobs Involving Shiftwork</h2>
+
+        <p>An <b>increasing</b> number of Australians are doing night work, weekend work or other types of shiftwork.
+        <br />
+        <u>Common shiftwork schedules include:</u>
+        </p>
+        <ul>
+            <li><b>continuous </b>(24 hours/day, 7 days a week)</li>
+            <li>discontinuous (24 hours/day, 5 days a week - 3 shift systems)</li>
+            <li>day/afternoon only (2 shift system)</li>
+            <li>fixed shifts (usually only 5 days/week)</li>
+            <li>rotating shifts (almost all 7 day rosters)</li>
+            <li>irregular hours (common in the transport industry)</li>
+            <li>early start shifts(common for bakers and workers in wholesale fruit and vegetable markets)</li>
+        </ul>
+        
+        <br />
+        <p>
+            Many shift workers suffer ill effects from working the irregular hours that shiftwork requires. These include sleeping problems and gastrointestinal problems stemming from irregular diet and eating habits. However, for some workers working irregular hours poses no problems at all.
+            <br />
+            <u>Some causes of shiftwork-related health and safety problems include:</u></p>
+            <ul>
+                <li><b>poor</b> roster design and characteristics</li>
+                <li>difficulties and problems with the work being done (e.g. inadequate supervision, unreasonable schedules)</li>
+                <li>differences in individual tolerances of shiftwork</li>
+                <li>family demands and social factors</li>
+            </ul>
+        <br />
+        <p>If shift workers have to work excessive overtime the risk of fatigue, burn-out, absenteeism and accidents is increased.
+        </p>
+        <h2>How does it affect me?</h2>
+        <p>
+            Most of the health and safety problems associated with shiftwork stem from the fact that working shifts requires you to work irregular hours and often at times that are in conflict with your biological rhythms. <br />
+        </p>
+        <p>
+            Your body clock is normally set for activity during the daytime and for rest and relaxation during the night. Disruptions to biological rhythms are most evident when you are required to work night shifts. <br />
+            <br />
+            There is also a high prevalence of gastro-intestinal problems among shift workers and this is likely to occur because of irregular diet and improper eating habits. <br />
+        </p>
+        <p>
+            Other health related problems that have been associated with working irregular hours include the increased risk of ulcers, cardiovascular problems and nervous complaints. <br />
+            However, it has not been established with certainty that cardiovascular problems occur as a result of working shifts.<br />
+        </p>
+
+        <p>
+            Many people who work shifts experience sleep problems, particularly if they are required to work night shifts. Shiftwork can also interfere with normal social and family life. <br />
+            <br />However, there can also be <b>benefits</b> to working irregular hours. Shift workers are able to pursue hobbies and other social and sporting interests during day recreation time, although this may often be at the expense of sleep. <br />
+            <br />
+            Another advantage of working irregular hours is that shift workers who commute to work are largely not required to commute during peak travel hours, reducing travel time to and from work.
+        </p>
+        ]]>
+    </qtext>
+    <qsummary>Jobs Involving Shiftwork master Text</qsummary>
+</question>
+

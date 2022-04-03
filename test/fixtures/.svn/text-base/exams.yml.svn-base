@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  exam_id: 1
+  status: 1
+  created_by: MyString
+
+two:
+  exam_id: 1
+  status: 1
+  created_by: MyString

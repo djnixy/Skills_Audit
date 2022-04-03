@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3q1Culinary.xml
+    Created on : October 22, 2008, 1:05 PM
+    Author     : Niki Akbar
+    Description: Short Answer
+-->
+
+<question category="Numeracy" subcategory="Ratio">
+    <qtype multipart="slave">Short Answer</qtype>
+    <qtext>1.5 litres (or 1500mL ) of water is equivalent of 6 cups. How many mL in one cup?</qtext>
+    <qamount>0</qamount>
+    <qsummary>Culinary test slave text: Short answer ratios and equivalents</qsummary>
+
+    <asw>250 ml</asw>
+    <weight>10</weight>	
+</question>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1q7Shiftwork.xml
+    Created on : October 13, 2008, 11:25 AM
+    Author     : Niki Akbar
+    Description: True or False
+-->
+
+<question category="Literacy" subcategory="True False">
+    <qtype multipart="slave">True False</qtype>
+    <qtext>
+        If shift workers are forced to work excessive overtime the risk of absenteeism 
+        and accidents is increased.
+    </qtext>
+    <qamount>2</qamount>
+    <qsummary>Jobs involving shiftwork slave: True false, excessive overtime</qsummary>
+    
+    <q id="1">True</q>
+    <q id="2">False</q>
+    
+    <asw>1</asw>
+    <weight>10</weight>	
+</question>

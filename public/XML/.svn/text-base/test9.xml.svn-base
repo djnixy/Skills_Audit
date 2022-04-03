@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Wrong Word">
+		<qtype>Select Wrong Word</qtype>
+		<qtext>Select the incorrect word out of these choices</qtext>
+		<qamount>3</qamount>
+                <qsummary>Wrong word demo</qsummary>
+		<q id="1">Tree</q>
+		<q id="2">Flower</q>
+                <q id="3">Cake</q>
+		<asw>3</asw>
+		<weight>10</weight>	
+    	</question>

@@ -1,0 +1,62 @@
+<%= error_messages_for :question %>
+
+
+<% form_tag '/admin/save_new_question' do |f| %>
+
+
+<% select_q_type = 
+    {"Multiple Choice", "Multiple Choice", "True False", "True False", "Long Answer", "Long Answer", 
+    "Short Answer", "Short Answer"}
+  %>
+    <% select_cat_type = 
+    {'Numeracy', 'Numeracy', "Literacy", "Literacy", "Decimal", "Decimal"}
+  %>
+
+  <p>
+    <b>Question Text</b><br />
+    <%= text_field_tag :q_text %>
+  </p>
+  
+    <p>
+      <b>Question Type</b><br />
+      <%= select_tag "q_type", options_for_select(select_q_type) %>
+    </p>
+    
+  <p>
+    <b>Number of Choices</b><br />
+    (only for Multiple Choice)<br />
+    <%= text_field_tag :q_choices %>
+  </p>
+  
+  <p>
+    <b>Weight</b><br />
+    <%= text_field_tag :q_weight %>
+  </p>
+
+<p>
+    <b>Answer</b><br />
+    <%= text_field_tag :q_answer %>
+  </p>
+
+<p>
+    <b>Category</b><br />
+    <%= select_tag :question_type, options_for_select(select_cat_type) %>
+  </p>
+  
+  <p>
+    <b>Subcategory</b><br />
+    <%= text_field_tag :q_subcategory %>
+  </p>
+  
+  <p>
+    <b>Status</b><br />
+    <%= radio_button_tag :q_status, 0 %> disabled
+    <%= radio_button_tag :q_status, 1 %> enabled
+  </p>
+  
+
+  
+  <p>
+    <%= submit_tag "Add Question", :class => "Submit" %>
+  </p>
+  <% end %>

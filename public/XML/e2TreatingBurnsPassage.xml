@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2TreatingBurnsPassage.xml
+    Created on : October 12, 2008, 11:00 AM
+    Author     : Niki Akbar
+    Description: Passage for exam 2 (e2) - student should read these for answering the questions.
+-->
+
+<question category="Literacy" subcategory="Passage">
+    <qtype multipart="master">Multipart</qtype>
+    <qtext><![CDATA[
+        <h2>TREATING A BURN</h2>
+        Burns can be very painful and you need to be careful when you are treating a burns casualty.  
+
+        The following steps are the general <b>principles</b> for treating burns:
+        <ul>
+            <li>Cool the area with running water. The heat in the skin can continue to burn after the cause of burn has been <b>removed</b>. You should continue until the area feels cool to the touch.</li>
+            <li>Cover the area with a <b>sterile</b> non-sticky dressing. This will help prevent further damage and infection.</li>
+            <li>Monitor the casualty for shock.  If the casualty feels faint, lie him down and raise the feet a little.  Do not give food or drink.</li>
+
+        </ul>
+
+        <h1>TREATING A CHEMICAL BURN</h1>
+        If the chemical is on the skin:
+        <ul>
+            <li>Wash it off <b>immediately</b></li>
+            <li>Remove any clothing that has the chemical on it</li>
+            <li>Cover the area with a sterile <b>dressing</b> and seek medical attention</li>
+
+
+        </ul>
+
+        If the chemical is in the eye:
+        <ul>
+            <li>Wash the eye with running water so the water runs away from the unaffected eye.  Turn the head to the side.</li>
+            <li><b>Flush</b> the eye for up to 20 minutes.  Keep the eye open with your fingers.</li>
+            <li>Cover the eye with a sterile dressing.</li>
+            <li><b>Seek</b> medical attention.</li>
+        </ul>
+        ]]>
+    </qtext>
+    <qsummary>Question master Treating Burns</qsummary>
+</question>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q11Numeracy.xml
+    Created on : October 22, 2008, 11:23 AM
+    Author     : Niki Akbar
+    Description: Numeracy questions Question 11
+-->
+
+<question category="Numeracy" subcategory="Percentages">
+    <qtype>Short Answer</qtype>
+    <qtext>20% of $12</qtext>
+    <qamount>0</qamount>
+    <qsummary>Short Answer: percentage of a number</qsummary>
+    <asw>2.4</asw>
+    <weight>10</weight>	
+</question>

@@ -1,0 +1,27 @@
+<h2>Create New Exam</h2>
+
+<%= error_messages_for :exam %>
+
+<% form_for @exam, :url => { :action => "create_new_exam" }  do |f| %>
+  <p>
+    <b>Exam Name</b><br />
+    <%= f.text_field :name, :size => 40 %>
+  </p>
+  
+  
+  <% select_type = 
+    {'Numeracy', 'Numeracy', "Literacy", "Literacy", "Decimal", "Decimal"}
+  %>
+
+<%= select_tag :exam_type, options_for_select(select_type) %>
+  
+  <p>
+    Results viewable by Students:
+  </p>
+  
+  <p>
+    <%= f.submit "Confirm", :class => "Submit" %>
+  </p>
+<% end %>
+
+<%= button_to 'Back', :action => :index %>

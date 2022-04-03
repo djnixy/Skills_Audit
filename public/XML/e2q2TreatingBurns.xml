@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q2TreatingBurns.xml
+    Created on : October 13, 2008, 11:25 AM
+    Author     : Niki Akbar
+    Description: Multiple (Short) Answers
+-->
+
+<question category="Literacy" subcategory="Meanings">
+    <qtype multipart="slave">Multiple Short Answer</qtype>
+    <qtext>Write meanings for these words:</qtext>
+    <qamount>4</qamount>
+    <qsummary>Trating burns slave: Write meaning for multiple words</qsummary>
+
+    <q id="1">Immediately</q>
+    <q id="2">Flush</q>
+    <q id="3">Further</q>
+    <q id="4">Dressing</q>
+    
+    <asw></asw>
+    <weight>10</weight>	
+</question>

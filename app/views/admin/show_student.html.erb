@@ -1,0 +1,13 @@
+<h2>Student Details</h2>
+<br />
+<p>
+  <b>Login ID:</b> 
+  <%=h @student.login_id %> <br />
+  
+  <b>Name:</b> 
+  <%=h @student.name %> <br />
+
+</p>
+
+<%= link_to 'Edit', :action => :edit_student, :id => @student.id %> |
+<%= link_to 'Back', :action => :index %>

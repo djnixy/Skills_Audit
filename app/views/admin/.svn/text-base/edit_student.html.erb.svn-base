@@ -1,0 +1,37 @@
+<h1>Edit Student</h1>
+
+<%= error_messages_for :student %>
+
+<% form_for @student, :url => { :action => "update_student", :controller => :admin } do |f| %>
+
+<%# get id %>
+<input id="id" name="id" type="hidden" value="<%= @student.id %>" />
+
+  <p>
+    <b>Login ID</b><br />
+    <%= f.text_field :login_id %>
+  </p>
+
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name %>
+  </p>
+
+<!--  
+  <p>
+    <b>Hashed password</b><br />
+    <%= f.text_field :hashed_password %>
+  </p>
+
+  <p>
+    <b>Salt</b><br />
+    <%= f.text_field :salt %>
+  </p>
+  -->
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', :action => :show_student, :id => @student.id %> |
+<%= link_to 'Back', :action => :index %>

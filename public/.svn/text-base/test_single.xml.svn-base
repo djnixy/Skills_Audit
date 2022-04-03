@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Geography">
+		<qtype>Short Answer</qtype>
+		<qtext>What is the capital of Victoria?</qtext>
+		<qamount>0</qamount>
+		<asw>Melbourne</asw>
+		<weight>10</weight>	
+    	</question>

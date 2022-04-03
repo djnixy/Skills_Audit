@@ -1,0 +1,23 @@
+<%#
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+%>
+<% form_tag '/admin/save_new_question_xml' do |f| %>
+    <p>
+      <b>Question XML Input</b><br />
+      No validation. Refer to the project XML guide for syntax.<br /><br />
+      XML<br />
+      <%= text_area_tag :q_data, nil, :class => :xml %>
+    </p>
+    
+    <% select_type = 
+    {'Numeracy', 'Numeracy', "Literacy", "Literacy", "Decimal", "Decimal"}
+  %>
+
+Question category: <%= select_tag :question_type, options_for_select(select_type) %>
+<br />
+Master ID: <%= text_field_tag :master_id %>
+<br /><br />
+    
+    <%= submit_tag "Add Question", :class => "Submit" %>
+<% end %>

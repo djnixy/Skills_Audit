@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1q6Shiftwork.xml
+    Created on : October 13, 2008, 11:25 AM
+    Author     : Niki Akbar
+    Description: True or False
+-->
+
+<question category="Literacy" subcategory="True False">
+    <qtype multipart="slave">True False</qtype>
+    <qtext>Shift workers who commute to work are often spared the stress of the peak hour rush.</qtext>
+    <qamount>2</qamount>
+    <qsummary>Jobs involving shiftwork slave: Stress and commuting to work</qsummary>
+    
+    <q id="1">True</q>
+    <q id="2">False</q>
+    
+    <asw>1</asw>
+    <weight>10</weight>	
+</question>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<question category="Literacy" subcategory="Geography">
+		<qtype multipart="slave">Short Answer</qtype>
+		<qtext>sub1</qtext>
+		<qamount>0</qamount>
+                <qsummary>Test slave</qsummary>
+		<asw>Melbourne</asw>
+		<weight>10</weight>	
+    	</question>

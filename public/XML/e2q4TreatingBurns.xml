@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q4TreatingBurns.xml
+    Created on : October 20, 2008, 4:03 PM
+    Author     : Niki Akbar
+    Description: Multiple Short Answer
+-->
+
+<question category="Literacy" subcategory="Multiple Short Answer">
+    <qtype multipart="slave">Multiple Short Answer</qtype>
+    <qtext>Answer these questions from the information given on the first page:</qtext>
+    <qamount>4</qamount>
+    <qsummary>Treating burns slave: </qsummary>
+
+    <q id="1">Why do you need to cool the burn area with running water?</q>
+    <q id="2">What should you do if the burns casualty feels faint?</q>
+    <q id="3">What is the first thing to do if you spill chemical on the skin?</q>
+    <q id="4">If you get chemical in an eye, for how long should you flush the eye with water?</q>
+
+    <asw></asw>
+    <weight>10</weight>	
+</question>
+

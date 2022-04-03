@@ -1,0 +1,14 @@
+<h2>View Student's Results </h2>
+
+<% for st_exam in @st_exams %>
+  <p><h3>Exam: <%=h st_exam.get_exam_information %></h3></p>
+    <% answers = Array.new(st_exam.results); for result in answers %>
+    <% unless result.question.get_type == :master %>
+      Question: <%=h result.question.get_question.to_s %><br />
+      Response: <span class=<%= "\"" + result.is_correct + "\"" %>>
+                <%=h result.get_answer.to_s %></span><br />
+      Correct Answer: <%=h result.question.get_answer.to_s %><br />
+      <br />
+      <% end %>
+    <% end %>
+<% end %>

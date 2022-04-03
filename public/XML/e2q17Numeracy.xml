@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q17Numeracy.xml
+    Created on : October 22, 2008, 11:43 AM
+    Author     : Niki Akbar
+    Description: Numeracy questions Question 17
+-->
+
+<question category="Numeracy" subcategory="Ratio">
+    <qtype>Short Answer</qtype>
+    <qtext>For a gear ratio of 1 : 5, how many teeth does the smaller wheel have, if the larger wheel has 60 teeth?</qtext>
+    <qamount>0</qamount>
+    <qsummary>Short answer: gear ratios</qsummary>
+    <asw>12</asw>
+    <weight>10</weight>	
+</question>

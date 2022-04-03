@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q15Numeracy.xml
+    Created on : October 22, 2008, 11:51 AM
+    Author     : Niki Akbar
+    Description: Numeracy questions Question 21 according to paperwork
+-->
+
+<question category="Numeracy" subcategory="Formula, area">
+    <qtype>Short Answer</qtype>
+    <qtext>The circumference, C, of a circle is given by C = π D. 
+    Find C when π = 3.14 and D = 10 m</qtext>
+    <qamount>0</qamount>
+    <qsummary>Finding the circumference of a circle given the dimensions</qsummary>
+    <asw>31.4</asw>
+    <weight>10</weight>	
+</question>

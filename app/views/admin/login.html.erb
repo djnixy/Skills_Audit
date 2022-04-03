@@ -1,0 +1,19 @@
+<h2>Login</h2>
+<p><%= flash[:notice] %></p>
+<% form_tag do %>
+  <%= token_tag %>
+  <p>
+    <b>Login ID</b><br />
+    <%= text_field_tag :name, params[:name] %>
+  </p>
+  
+  <p>
+    <b>Password</b><br />
+    <%= password_field_tag :password, params[:password] %>
+  </p>
+
+  <p>
+    <%= submit_tag "login" %>
+  </p>
+  
+<% end %>

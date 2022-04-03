@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3q5Culinary.xml
+    Created on : October 22, 2008, 1:16 PM
+    Author     : Niki Akbar
+    Description: Long answer
+-->
+
+<question category="Literacy" subcategory="">
+    <qtype multipart="slave">Long Answer</qtype>
+    <qtext><![CDATA[
+        This recipe requires you to perform a number of basic kitchen procedures.  <br />
+        Many of the procedures in a kitchen environment, particularly big commercial kitchens, 
+        have OH and S (Occupational Health and Safety) implications. <br />
+        In the space below, explain IN FULL SENTENCES what those OH and S dangers might be.
+        ]]>
+    </qtext>
+    <qamount>0</qamount>
+    <qsummary>Culinary slave question: Long answer: OH and S dangers of kitchens</qsummary>
+
+    <asw></asw>
+    <weight>10</weight>	
+</question>

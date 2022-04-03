@@ -1,0 +1,14 @@
+       
+        <?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Word Matching">
+		<qtype>Word Match</qtype>
+		<qtext>5 times 10 equals 51</qtext>
+		<qamount>4</qamount>
+                <qsummary>Word match demo</qsummary>
+		<q id="1" type="match">Large Plant</q>
+		<q id="2" type="word">Tree</q>
+                <q id="3" type="word">Niki</q>
+                <q id="4" type="match">Broke the SVN</q>
+		<asw>2,3</asw>
+		<weight>10</weight>	
+    	</question>

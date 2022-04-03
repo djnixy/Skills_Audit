@@ -1,0 +1,9 @@
+
+    <% logger.info(@answers.to_s) %>
+    <% i = 0; until i == @answers.length %>
+    Question: <%=h @answers[i].question.get_question.to_s %><br />
+    Response: <span class=<%= "\"" + @answers[i].is_correct + "\"" %>>
+              <%=h @answers[i].get_answer.to_s %></span><br />
+    Correct Answer: <%=h @answers[i].question.get_answer.to_s %><br />
+        <% i += 1 %><br />
+    <% end %>

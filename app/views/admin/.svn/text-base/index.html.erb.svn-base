@@ -1,0 +1,99 @@
+<h2>Listing Users</h2>
+
+<p><%= flash[:notice] %></p>
+
+
+
+<table class= "adminTable">
+  <tr>
+    <th>Login ID</th>
+    <th>Student Name</th>
+    <th>Test Name</th>
+    <th>Options</th>
+  </tr>
+
+<% for student in @students %>
+  <tr>
+    <td><%=h student.login_id %></td>
+    <td><%=h student.name %></td>
+    <td><%= student.get_exam_list  %></td>
+    <td><%= link_to 'Show', :action => :show_student, :id => student.id %>
+    <%= link_to 'Edit', :action => :edit_student, :id => student.id %>
+    <%= link_to 'Assign', :action => :assignment, :id => student.id %>
+    <%= link_to 'Results', :action => :student_results, :id => student.id %>
+    <%= link_to 'Delete', {:action => :destroy_student, :id => student.id}, 
+                                           :confirm => "Are you sure? #{student.name} will be deleted from the list.", 
+                                           :method => :delete %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Create a New Student', :action => :create_new_student %>
+<!--<a href="/">Back to Main Menu</a>-->
+
+<br />
+<br />
+<br />
+<br />
+<table class= "adminTable">
+  <tr>
+    <th>Login ID</th>   
+    <th>Teacher Name</th>
+    <th>Options</th>
+  </tr>
+
+<% for teacher in @teachers %>
+  <tr>
+    <td><%=h teacher.login_id %></td>
+    <td><%=h teacher.name %></td>
+    <td><%= link_to 'Show', :action => :show_teacher, :id => teacher.id %>
+    <%= link_to 'Edit', :action => :edit_teacher, :id => teacher.id %>
+    <%= link_to 'Delete', {:action => :destroy_teacher, :id => teacher.id}, 
+                                           :confirm => "Are you sure? #{teacher.name} will be deleted from the list.", 
+                                           :method => :delete %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Create a New Teacher', :action => :create_new_teacher %>
+<!--<a href="/">Back to Main Menu</a>-->
+
+<br />
+<br />
+<br />
+<br />
+<table class= "adminTable">
+  <tr>
+    <th>Login ID</th>   
+    <th>Admin Name</th>
+    <th>Options</th>
+  </tr>
+
+<% for admin in @admins %>
+  <tr>
+    <td><%=h admin.login_id %></td>
+    <td><%=h admin.name %></td>
+    <td><%= link_to 'Show', :action => :show_admin, :id => admin.id %>
+    <%= link_to 'Edit', :action => :edit_admin, :id => admin.id %>
+    <%= link_to 'Delete', {:action => :destroy_admin, :id => admin.id}, 
+                                           :confirm => "Are you sure? #{admin.name} will be deleted from the list.", 
+                                           :method => :delete %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Create a New Admin', :action => :create_new_admin %>
+<!--<a href="/">Back to Main Menu</a> -->
+<br /><br />
+<%= button_to "Add Question XML", :action => :add_question_xml %> 
+<br /><%= button_to "Add Question Form", :action => :new_question %>
+

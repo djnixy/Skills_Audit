@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Decimal" choices="4">
+		<qtype>1</qtype>
+		<qtext>Exam has not been assigned any questions, please inform the instructor</qtext>
+		<qamount>4</qamount>
+                <qsummary>Exam end, should not be seen</qsummary>
+		<asw>1</asw>
+		<weight>10</weight>	
+    	</question>

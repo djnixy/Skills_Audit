@@ -1,0 +1,7 @@
+<% form_tag do %>
+    <% for student in @students %>
+        <%= check_box 'student', 'assign', :index=>student.id %><%= student.name %><br />
+    <% end %>
+    <%= submit_tag "Assign to student" %>
+<% end %>
+<%= button_to "Next: Finish", {:action=>:index} %>

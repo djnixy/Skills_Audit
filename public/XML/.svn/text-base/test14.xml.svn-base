@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Alpha Arrange">
+		<qtype>Arrange Alphabetical</qtype>
+		<qtext>Order these words in alphabetical order activities</qtext>
+		<qamount>3</qamount>
+                <qsummary>Arrange alphabetical demo</qsummary>
+		<q id="1">Banana</q>
+		<q id="2">Carrot</q>
+                <q id="3">Apple</q>
+		<asw>3,1,2</asw>
+		<weight>10</weight>	
+    	</question>

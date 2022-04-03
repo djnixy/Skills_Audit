@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>Skills Audit Tool</title>
+  <link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/prototype.js?1223854109" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1223854109" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1223854109" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1223854109" type="text/javascript"></script>
+<script src="/javascripts/application.js?1223854109" type="text/javascript"></script>
+  <script src="/javascripts/prototype.js?1223854109" type="text/javascript"></script>
+  <script src="/javascripts/scriptaculous.js?1223854109" type="text/javascript"></script>
+  <script src="/javascripts/flash.js?1224045021" type="text/javascript"></script>
+</head>
+<body >
+  <div id="header"><h1>Skills Audit Tool</h1></div>
+  <div id="teachermenu">
+    || <a href="/">Menu</a><br />
+    
+      <a href="/teacher/list">Select Exam</a> ||
+      <a href="/teacher/arrange/4">Add Questions</a> ||    
+      <a href="/teacher/arrange/4">Arrange</a> ||
+      <a href="/teacher/assign/4">Assign</a>
+    
+  </div>
+
+
+
+<div id="container">
+<div id="content">
+<div id="exam">
+    <span style="visibility:hidden; position: relative; z-index: 0; left: 0px; top: 0px;" id="item"><div class="box">
+        <div class="right">
+            Drag question here to add to your exam
+        </div>
+        <form action="/teacher/add/?exam_id=5&amp;question_id=3" method="post">
+            <div class="left"><input name="commit" value="Add" type="submit"></div>
+        </form>
+        </div><br></span>
+    
+      <span id="item_2"><div class="box">
+  <div class="right">
+    28.3 + 6 = <br />
+    Type: multiple<br />
+    DEBUG >> question id: 2, choices: 4, depreciated: false, type: multiple
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=2" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_3"><div class="box">
+  <div class="right">
+    What continent is France on?<br />
+    Type: multiple<br />
+    DEBUG >> question id: 3, choices: 3, depreciated: false, type: multiple
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=3" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_4"><div class="box">
+  <div class="right">
+    5 times 10 equals 51<br />
+    Type: true_false<br />
+    DEBUG >> question id: 4, choices: 2, depreciated: false, type: true_false
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=4" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_5"><div class="box">
+  <div class="right">
+    10+2 * 4 = <br />
+    Type: multiple<br />
+    DEBUG >> question id: 5, choices: 6, depreciated: false, type: multiple
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=5" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_6"><div class="box">
+  <div class="right">
+    5 times 10 equals 51<br />
+    Type: word_match<br />
+    DEBUG >> question id: 6, choices: 4, depreciated: false, type: word_match
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=6" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_7"><div class="box">
+  <div class="right">
+    What is the capital of Victoria?<br />
+    Type: short_answer<br />
+    DEBUG >> question id: 7, choices: 0, depreciated: false, type: short_answer
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=7" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_8"><div class="box">
+  <div class="right">
+    The quick brown %%% jumps over the lazy %%%<br />
+    Type: blanks<br />
+    DEBUG >> question id: 8, choices: 2, depreciated: false, type: blanks
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=8" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_9"><div class="box">
+  <div class="right">
+    Order these regular activities<br />
+    Type: sequence<br />
+    DEBUG >> question id: 9, choices: 3, depreciated: false, type: sequence
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=9" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_10"><div class="box">
+  <div class="right">
+    Order these words in alphabetical order activities<br />
+    Type: arrange_alpha<br />
+    DEBUG >> question id: 10, choices: 3, depreciated: false, type: arrange_alpha
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=10" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_11"><div class="box">
+  <div class="right">
+    Select the incorrect word out of these choices<br />
+    Type: wrong_word<br />
+    DEBUG >> question id: 11, choices: 3, depreciated: false, type: wrong_word
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=11" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_12"><div class="box">
+  <div class="right">
+    Select the correct spelling for the following words:<br />
+    Type: spelling<br />
+    DEBUG >> question id: 12, choices: 9, depreciated: false, type: spelling
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=12" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_13"><div class="box">
+  <div class="right">
+    Calculate the bill for table 8<br />
+    Type: calculation<br />
+    DEBUG >> question id: 13, choices: 7, depreciated: false, type: calculation
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=13" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_14"><div class="box">
+  <div class="right">
+    Order these regular activities<br />
+    Type: arrange_order<br />
+    DEBUG >> question id: 14, choices: 3, depreciated: false, type: arrange_order
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=14" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_15"><div class="box">
+  <div class="right">
+    What is a widely used sentence involving a quick brown fox and a lazy dog which uses every letter of the alphabet?<br />
+    Type: long_answer<br />
+    DEBUG >> question id: 15, choices: 0, depreciated: false, type: long_answer
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=15" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_16"><div class="box">
+  <div class="right">
+    master1<br />
+    Type: master<br />
+    DEBUG >> question id: 16, choices: , depreciated: false, type: master
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=16" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+      <span id="item_19"><div class="box">
+  <div class="right">
+    
+                    <h1>TREATING A BURN</h1>
+                    Burns can be very painful and you need to be careful when you are treating a burns casualty.  
+                    
+                    The following steps are the general <b>principles</b> for treating burns:
+                    <ul>
+                        <li>Cool the area with running water. The heat in the skin can continue to burn after the cause of burn has been <b>removed</b>. You should continue until the area feels cool to the touch.</li>
+                        <li>Cover the area with a <b>sterile</b> non-sticky dressing. This will help prevent further damage and infection.</li>
+                        <li>Monitor the casualty for shock.  If the casualty feels faint, lie him down and raise the feet a little.  Do not give food or drink.</li>
+                                                                       
+                    </ul>
+                    
+                    <h1>TREATING A CHEMICAL BURN</h1>
+                    If the chemical is on the skin:
+                    <ul>
+                        <li>Wash it off <b>immediately</b></li>
+                        <li>Remove any clothing that has the chemical on it</li>
+                        <li>Cover the area with a sterile <b>dressing</b> and seek medical attention</li>
+           
+ 
+                    </ul>
+                    
+                    If the chemical is in the eye:
+                    <ul>
+                        <li>Wash the eye with running water so the water runs away from the unaffected eye.  Turn the head to the side.</li>
+                        <li><b>Flush</b> the eye for up to 20 minutes.  Keep the eye open with your fingers.</li>
+                        <li>Cover the eye with a sterile dressing.</li>
+                        <li><b>Seek</b> medical attention.</li>
+                    </ul><br />
+    Type: master<br />
+    DEBUG >> question id: 19, choices: , depreciated: false, type: master
+  </div>
+  <form action="/teacher/add/?exam_id=4&amp;question_id=19" method="post">
+  <div class="left"><input name="commit" type="submit" value="Add" /></div>
+  </form>
+</div><br /></span>
+      
+    
+    
+</div>
+
+    <div id="exam2">
+      <span style="visibility:hidden; position: relative; z-index: 0; left: 0px; top: 0px;" id="item_0"><div class="box">
+  <div class="right">
+    Drag question here to add to your exam
+  </div>
+
+  <div class="left"><input name="commit" value="Add" type="submit"></div>
+  
+</div><br></span>
+<form action="/teacher/save_order?exam_id=4" method="post">
+<input id="result_answer" name="result[answer]" type="hidden" />
+<input name="commit" onClick="examdd(15, 'exam2')" type="submit" value="Commit Order" />
+</form>
+    </div>
+    
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sortable.create("exam", {constraint:false, containment:['exam2','exam'], onUpdate:function(){new Ajax.Request('/teacher/arrange?exam_id=4', {asynchronous:true, evalScripts:true, parameters:Sortable.serialize("exam")})}, tag:'span'})
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Sortable.create("exam2", {constraint:false, containment:['exam','exam2'], onUpdate:function(){new Ajax.Request('/teacher/arrange?exam_id=4', {asynchronous:true, evalScripts:true, parameters:Sortable.serialize("exam2")})}, tag:'span'})
+//]]>
+</script>
+<form method="post" action="/teacher/arrange/4" class="button-to"><div><input type="submit" value="Next: Arrange Questions" /></div></form>
+</div>
+
+
+</body>
+</html>

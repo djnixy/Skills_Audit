@@ -1,0 +1,17 @@
+<%=  "<div id='box#{question_add.id.to_s}' class='box'> " %>
+<%= "<div class='handle'>" %>  
+  <div class="right">
+    <%= question_add.get_summary.to_s %><br />
+    <%= list_text(question_add) %>
+    <%= question_add.get_category %>
+    <%= question_add.get_subcategory %>
+    
+
+  </div>
+  <%# form_tag '/teacher/add/?exam_id=' + @exam.id.to_s + '&question_id=' + question_add.id.to_s  do %>
+  <!--<div class="left"><%#= submit_tag "Add" %></div> -->
+  <%=  "<div class='left'><input type='submit' id='showhide#{question_add.id.to_s}' value='+' onclick='teachtest(#{question_add.id.to_s})' /></div></div>" %>
+  <%= " <div id='questadd#{question_add.id.to_s}' class='teachshow'>#{question_add.get_question}</div> " %>
+  <%# end %>
+
+<%=  "</div>" %>

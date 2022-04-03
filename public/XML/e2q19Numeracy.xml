@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q19Numeracy.xml
+    Created on : October 22, 2008, 11:49 AM
+    Author     : Niki Akbar
+    Description: Problem Solving - Question 20 according to paperwork
+-->
+
+<question category="Numeracy" subcategory="Problem Solving">
+    <qtype>Multiple Short Answer</qtype>
+    <qtext>Over three days you spend 2 hrs 45 min, 1 hr 30 min and 3 hrs 30 min on a job.</qtext>
+    <qamount>2</qamount> 
+    <qsummary>Multiple Short Answers: totaling hours and calculating </qsummary>
+    
+    <q id="1">a) What was the total time you spent on this job?</q>
+    <q id="2">b) Calculate the total cost of your labour on the job, at $32 per hour.</q>
+    
+    <asw>248, 7 hrs 45 min</asw>
+    <weight>10</weight>	
+</question>
+
+

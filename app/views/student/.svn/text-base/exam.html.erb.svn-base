@@ -1,0 +1,138 @@
+<%#=h @student.display_details %> <!--<br />
+<%#=h @question.display_details %> <br />
+<%#=h @st_exam.display_details %> <br />
+<br />-->
+
+<div id="summary">
+<% if @question.get_type != :master %>
+    <%= exam_summary(@st_exam.exam, @position) %>
+<% else %>
+    <%= exam_master(@st_exam.exam, @position) %>
+<% end %>
+</div>
+<div id="font_buttons">
+<button id="decreae"onclick= "decreaseFontSize()" >A-</button>
+<button id="increase" onclick="increaseFontSize()" >A+</button>
+</div>
+<div id="notice"><%= flash[:notice] %></div>
+<% if @question.get_multi_type == :master %>
+  <%= help_text(@question) %>
+  <%= master_question_text(@question) %>
+  <%= question_text(@question) %>
+<% else %>
+  <%= master_question_text(@question) %>
+  <%= question_text(@question) %>
+  <%= help_text(@question) %>
+<% end %>
+<%=  "<input type='hidden' id='back_question' value='#{@result.revert_answer_format}' />"%>
+
+<% form_for @result, :url => { :action => "answer", :sortable_xhr => :false, :question_id => @question.id } do |f| %>
+    <% logger.info(@question.get_type) %>
+    <%= hidden_fields(@question) %>
+    <% case @question.get_type
+       when :multiple, :true_false %>
+        <%= multi_radio_buttons(f, @question) %>
+      <% when :short_answer %>
+        <%= f.text_field :answer %>
+      <% when :long_answer %>
+        <%= f.text_area :answer %>
+      <% when :wrong_word %>
+        <%= multi_radio_buttons(f, @question) %>
+      <% when :master %>
+        <% @submit_type = {:multitype=>@question} %> 
+        <% @skip_type = {:type=>:none} %>      
+        </form>    
+    <% when :arrange_order, :arrange_alpha %>
+        <div id="javascript" >
+          <%= sortable_data @question, :div_id => :result, :tag=>:li, :type=>:ul  %>
+          <%= sortable_element 'result',:complete => visual_effect(:highlight,'result'),:constraint => false, :url =>{:action=>"false", :question_id => @question.id, :sortable_xhr => :true} %>
+          <%#= hidden_field "result", :answer %>
+          <% @submit_type = {:sortable=>true} %>
+        </div>
+        <div id="njs">
+          <%= javascript_tag "document.write('<!--');" %>
+          <%= multi_text_field(f, @question, :seperator => "br /", :order=>:choice_field) %>
+          <%= javascript_tag "document.write('-->');" %>
+        </div>
+      <% when :calculation %>
+          <%= multi_text_field(f, @question, :order=>:choice_field, :format=>:table, :textsize=>5) %>
+      <% when :multi_short %>
+          <%= multi_text_field(f, @question, :order=>:choice_field, :format=>:newline, :border=>0, :textsize=>60) %>
+      <% when :sequence %>
+        <div id="javascript" >
+          <%= sortable_data @question, :div_id => :result, :tag=>"span" %>
+          <%= sortable_element 'result',  :tag=>:span,:constraint => :horizontal, :url =>{:action=>"false", :question_id => @question.id, :sortable_xhr => :true} %>
+          <%= hidden_field "result", :answer %>
+          <% @submit_type = {:sortable=>true} %>
+        </div>
+        <div id="njs">
+          <%= multi_text_field(f, @question, :seperator => "br /", :order=>:choice_field) %>
+        </div>
+      <% when :spelling %>
+        <%= spelling_form(@question, :text=>false) %>
+        <% @submit_type = {:spelling=>true} %>
+      <% when :word_match %>
+        <%= hidden_field "result", :answer %>
+        <div id="matchcontent">
+          <div id="match"> 
+              <%= sortable_data @question, :div_id => :result2, :tag=>:li, :type=>:ul, :q_part=>"match" %>
+          </div>
+          <div id="word">
+              <%= sortable_data @question, :div_id => :result, :tag=>:li, :type=>:ul, :q_part=>"word" %>
+          </div>
+        </div>
+        <br />
+        
+        <%= sortable_element 'result', :url =>{:action=>"false", :question_id => @question.id, :sortable_xhr => :true} %>
+        <% @submit_type = {:sortable=>true} %>
+      <% when :blanks %>
+        <span class="questionChoice"><%= blanks_fields(f, @question) %></span>
+      <%#= question_text_end %>  
+      <% end  %>
+      
+    <br />
+    
+    <br />
+    
+    <div id="buttons">
+        <div id="submitdiv">
+            <%= submit_button f, @question, @submit_type %>
+        </div>
+      
+        <div id="skip">
+          <!-- replace type=>none to @submit_type -->
+            <%= no_answer_button(f, @st_exam, @question, :type=>:skip , :text=> "Skip Question") %>
+        </div>
+
+            
+  </div>
+<% end %>
+<div id ="Back"><%= button_to "Previous Question", :action => :exam, :id => @st_exam.exam.get_prev_q_ex(@question, @position.to_i) %></div>
+
+
+<%= question_text_end(@question) %> 
+<div ><button onclick= "javascript:popup()" >Calculator</button></div>
+<script type="text/javascript">
+onload=showdd()
+</script>
+<script type="text/javascript">
+onload=autocompleteoff()
+</script>
+<script type="text/javascript">
+onload=sortableload()
+</script>
+<script type="text/javascript">
+onload=setfocus("result_0_answer")
+</script>
+<script type="text/javascript">
+onload=sorttextanswers()
+</script>
+    <br />
+    <br />
+    <br />
+    
+    
+
+
+
+    

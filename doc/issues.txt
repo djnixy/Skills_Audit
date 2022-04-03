@@ -1,0 +1,12 @@
+Known issues
+Where there is a student and teacher with the same login ID, the teacher is given priority and the student will not be able to log in.
+Formatting not preserved in long answer boxes.
+
+Creating a test with no questions and then assigning it too students will result in having to having to create a anew test with questions and reassigning all the students.
+Calculator shows in a full screen popup with skills audit background, should be in a small window with no background
+
+If a student has previously answered a question and then skips it their answer will be lo0st for that question.  To get around this make sure next question is clicked if the answer exists.
+
+Weight field in question xml is currently unused.  Can be used in future for a set worth for each question for marking
+
+Question list type in add_questions cannot be changed without having at least one question added to the test

@@ -1,0 +1,26 @@
+<h2>New Exam</h2>
+
+<%= error_messages_for :exam %>
+
+<% form_for @exam, :url => { :action => "make_exam", :controller => :admin }  do |f| %>
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name, :size => 40 %>
+  </p>
+
+  <p>
+    <b>Status</b><br />
+    <%= select_tag 'status[]', options_for_select( [['disabled','0'], ['enabled','1']] ) %>
+  </p>
+
+  <p>
+    <b>Questions</b><br />
+    <%= collection_select :question, :id, @questions, :id, :get_question, {}, {:multiple=>true} %>
+  </p>
+
+  <p>
+    <%= f.submit "Add User", :class => "Submit" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', :action => :index %>

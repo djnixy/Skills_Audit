@@ -1,0 +1,9 @@
+<% mark = 0 %>
+<% for r in report_bar  %>
+    <% logger.debug("report_bar: "+r.inspect) %>
+    <% mark += Result.find_by_question_id_and_student_exam_id(r.id, @st_exam.id).mark  %>
+<% end %>
+<p>
+<%= report_bar[0].get_subcategory %> <br />
+<%= bar(mark) %>
+</p>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3q3Detergent.xml
+    Created on : October 22, 2008, 12:33 PM
+    Author     : Niki Akbar
+    Description: Short Answer
+-->
+
+<question category="Literacy" subcategory="Short Answer">
+    <qtype multipart="slave">Short Answer</qtype>
+    <qtext>Give one action would you NOT take in using this detergent?</qtext>
+    <qamount>0</qamount>
+    <qsummary>Detergent slave question: Short answer: Action you would not take using detergent</qsummary>
+    <asw></asw>
+    <weight>10</weight>	
+</question>

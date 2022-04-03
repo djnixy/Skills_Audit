@@ -1,0 +1,5 @@
+<%#
+To Be implemented. Displays all a student exams as a graphical representation.
+%>
+<% StudentExam.find_all_by_student_id(@student.id).inspect %>
+    <%= render :partial => 'report_bar', :object => Question.find_all_by_subcategory_and_exam_id(s.to_s, @exam.id) %>

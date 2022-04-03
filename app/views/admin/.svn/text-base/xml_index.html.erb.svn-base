@@ -1,0 +1,10 @@
+<% for q in @questions %>
+<p>
+    <%= q.get_summary %>
+    <%= link_to 'Show XML', :action=>:show_question_xml, :id=>q.id  %>
+    <%= link_to 'Delete', :action=>:delete_xml, :id=>q.id  %>
+</p>
+<% end %>
+
+<br />
+<%= link_to 'New Question', :action=>:add_question_xml %>

@@ -1,0 +1,19 @@
+
+<h1>Student Reports for <%= @exam.name.to_s  %> </h1>
+<%= flash[:notice]  %>
+<% if @st_exams %>
+<table>
+  <tr><td>Student ID</td><td>Name</td><td>Mark (out of <%= @exam.exam_questions.length %>) </td></tr>
+
+
+  <% for st_exam in @st_exams %>
+   <tr><td> <%= link_to st_exam.student.login_id, :action=>:student_results, :id => st_exam.id  %>
+   </td>
+   <td><%= link_to st_exam.student.name, :action=>:student_results, :id => st_exam.id  %>
+   </td>
+   <td><%= st_exam.score %>
+    </tr>
+   
+  <% end %>
+</table>
+<% end %>

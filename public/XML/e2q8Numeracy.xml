@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q8Numeracy.xml
+    Created on : October 22, 2008, 11:20 AM
+    Author     : Niki Akbar
+    Description: Rounding
+-->
+
+<question category="Numeracy" subcategory="Rounding">
+    <qtype>Short Answer</qtype>
+    <qtext>Give correct to two decimal places: 6.057</qtext>
+    <qamount>0</qamount>
+    <qsummary>Short answer: Correct to 2 decimal places</qsummary>
+    <asw>6.06</asw>
+    <weight>10</weight>	
+</question>

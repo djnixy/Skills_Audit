@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>Skills Audit Tool</title>
+  <link href="/stylesheets/style.css?1224199507" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/prototype.js?1223854109" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1223854109" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1223854109" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1223854109" type="text/javascript"></script>
+<script src="/javascripts/application.js?1223854109" type="text/javascript"></script>
+  <script src="/javascripts/prototype.js?1223854109" type="text/javascript"></script>
+  <script src="/javascripts/scriptaculous.js?1223854109" type="text/javascript"></script>
+  <script src="/javascripts/flash.js?1224045021" type="text/javascript"></script>
+</head>
+<body >
+  <div id="header"><h1>Skills Audit Tool</h1></div>
+  <div id="menu"><p>
+    || <a href="/">Menu</a><br />
+    
+      <a href="/teacher/list">Select Exam</a> ||
+      <a href="/teacher/arrange/2">Add Questions</a> ||    
+      <a href="/teacher/arrange/2">Arrange</a> ||
+      <a href="/teacher/assign/2">Assign</a>
+    
+    
+    </p>
+  </div>
+<form action="/teacher/save_order?exam_id=2" method="post">
+  <input id="result_answer" name="result[answer]" type="hidden" />
+  <div id="exam">
+    
+      <span id="item_2">28.3 + 6 = <br /></span>
+      
+    
+      <span id="item_3">What continent is France on?<br /></span>
+      
+    
+      <span id="item_4">5 times 10 equals 51<br /></span>
+      
+    
+      <span id="item_5">10+2 * 4 = <br /></span>
+      
+    
+      <span id="item_6">5 times 10 equals 51<br /></span>
+      
+    
+      <span id="item_7">What is the capital of Victoria?<br /></span>
+      
+    
+      <span id="item_8">The quick brown %%% jumps over the lazy %%%<br /></span>
+      
+    
+      <span id="item_9">Order these regular activities<br /></span>
+      
+    
+      <span id="item_10">Order these words in alphabetical order activities<br /></span>
+      
+    
+      <span id="item_11">Select the incorrect word out of these choices<br /></span>
+      
+    
+      <span id="item_12">Select the correct spelling for the following words:<br /></span>
+      
+    
+      <span id="item_13">Calculate the bill for table 8<br /></span>
+      
+    
+      <span id="item_14">Order these regular activities<br /></span>
+      
+    
+      <span id="item_15">What is a widely used sentence involving a quick brown fox and a lazy dog which uses every letter of the alphabet?<br /></span>
+      
+    
+  </div>
+  <input name="commit" onClick="writedd(13, 'exam')" type="submit" value="Commit Order" />
+
+<script type="text/javascript">
+//<![CDATA[
+Sortable.create("exam", {constraint:'vertical', onUpdate:function(){new Ajax.Request('/teacher/arrange/2?exam_id=2', {asynchronous:true, evalScripts:true, parameters:Sortable.serialize("exam")})}, tag:'span'})
+//]]>
+</script>
+
+</form>
+
+<form method="post" action="/teacher/assign/2" class="button-to"><div><input type="submit" value="Next: Assign Students" /></div></form>
+
+
+
+</body>
+</html>

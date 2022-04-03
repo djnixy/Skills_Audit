@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q2Numeracy.xml
+    Created on : October 22, 2008, 11:08 AM
+    Author     : Niki Akbar
+    Description: Decimal
+-->
+
+<question category="Numeracy" subcategory="Decimal">
+    <qtype>Short Answer</qtype>
+    <qtext>100 x 7.348 =</qtext>
+    <qamount>0</qamount>
+    <qsummary>Short answer: Multiplication</qsummary>
+    <asw>734.8</asw>
+    <weight>10</weight>	
+</question>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3q6Culinary.xml
+    Created on : October 22, 2008, 1:20 PM
+    Author     : Niki Akbar
+    Description: Multiple short answers
+-->
+
+<question category="Literacy" subcategory="Alpha Arrange">
+    <qtype>Calculation</qtype>
+    <qtext>Calculate the bill for table 8</qtext>
+    <qamount>7</qamount>
+    <qsummary>Calculate the bill amounts and totals</qsummary>
+    
+    <q id="1">4 x Steaks @ $12.50 each</q>
+    <q id="2">3 x Prawn Cocktails @ $7.20 each</q>
+    <q id="3">1 x mudcake @ $5.50</q>
+    <q id="4">2 x Creme brulee @ $6.25</q>
+    <q id="5">Food cost = </q>
+    <q id="6">10 % GST = </q>
+    <q id="7">Total</q>
+    
+    <asw>50,21.60,5.50,6.25,83.35,8.34,91.69</asw>
+    <weight>10</weight>	
+</question>

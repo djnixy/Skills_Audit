@@ -1,0 +1,17 @@
+<% form_tag '/teacher/save_order?exam_id=' + @exam.id.to_s do %>
+  <%= hidden_field "result", :answer %>
+  <div id="exam">
+    <% x = 0; until x == @questions.length %>
+      <span id="item_<%= @questions[x].id %>">
+        <%= render :partial => 'question', :object => @questions[x] %><br />
+      </span>
+      <% x += 1 %>
+    <% end %>
+  </div>
+  <%= submit_tag "Commit Order", :onClick => "writedd(" + (@questions.length-1).to_s + ", 'exam')" %>
+
+<%= sortable_element 'exam', :constraint => :vertical, :tag => 'span', :url => { :action => :arrange, :exam_id => @exam.id } %>
+
+<% end %>
+
+<%= button_to "Next: Assign Students", {:action=>:assign, :id=>@exam.id} %>

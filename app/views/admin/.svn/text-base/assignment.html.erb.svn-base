@@ -1,0 +1,14 @@
+<h2>Assign Student</h2>
+
+<%= error_messages_for :student %>
+<div id="notice"><%= flash[:notice] %></div>
+
+<br />
+
+<b> Please select one or more exam to be assigned:  </b>
+<%  @exams = Exam.find(:all , :conditions=>{:status=>1}) %>
+<% form_for @st_exam, :url => {:controller => :admin, :action => :assign, :id => @student.id } do |f| %>
+      <%= collection_select :exam, :id, @exams, :id, :get_name, {}, {:multiple=>true} %>
+    <%= f.submit %>
+<% end %>
+

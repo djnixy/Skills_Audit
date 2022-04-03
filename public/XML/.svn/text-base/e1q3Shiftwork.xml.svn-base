@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1q3Shiftwork.xml
+    Created on : October 20, 2008, 12:57 PM
+    Author     : Niki Akbar
+    Description: Multiple Short Answer
+-->
+
+<question category="Literacy" subcategory="Short Answer">
+    <qtype multipart="slave">Multiple Short Answer</qtype>
+    <qtext>Use information given in the passage answer these questions</qtext>
+    <qamount>2</qamount>
+    <qsummary>Jobs involving shiftwork slave: Use information given in the passage answer these questions</qsummary>
+    
+    <q id="1">a. How is your body clock usually set?</q>
+    <q id="2">b. What are some of the advantages of shiftwork?</q>
+    
+    <asw></asw>
+    <weight>10</weight>
+</question>
+

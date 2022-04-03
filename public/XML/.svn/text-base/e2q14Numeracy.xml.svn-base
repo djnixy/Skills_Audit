@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q14Numeracy.xml
+    Created on : October 22, 2008, 11:27 AM
+    Author     : Niki Akbar
+    Description: Numeracy questions Question 14
+-->
+
+<question category="Numeracy" subcategory="Fraction Ordering">
+    <qtype>Arrange Order</qtype>
+    <qtext>Arrange these spanner sizes in order from smallest (Top) to largest (Bottom):</qtext>
+    <qamount>5</qamount>
+    <qsummary>Arranging spanner sizes in order</qsummary>
+    
+    <q id="1">3/4</q>
+    <q id="2">1/8</q>
+    <q id="3">1/2</q>		
+    <q id="4">3/8</q>
+    <q id="5">3/16</q>
+    
+    <asw>1,3,4,5,2</asw>
+    <weight>10</weight>	
+</question>

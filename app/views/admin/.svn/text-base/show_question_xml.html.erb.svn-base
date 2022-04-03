@@ -1,0 +1,5 @@
+
+<b>XML for Question ID:</b> <%= @question.id.to_s %>
+<p><input type=text value='<%=h @question.q_data.to_s %>' /></p>
+
+<%= link_to 'Back', :action=>:xml_index %>

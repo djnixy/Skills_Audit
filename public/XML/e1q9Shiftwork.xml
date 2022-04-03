@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1q9Shiftwork.xml
+    Created on : October 20, 2008, 1:16 PM
+    Author     : Niki Akbar
+    Description: Long answer
+
+-->
+
+<question category="Literacy" subcategory="Opinion">
+    <qtype>Long Answer</qtype>
+    <qtext>
+    Write below about why you have decided to study and work in the Business Services and Technology area.  
+    We are expecting you to provide a number of points, and to express them in paragraphs.
+    </qtext>
+    <qamount>0</qamount>
+    <qsummary>Long answer, why are you studying in Business Technology?</qsummary>
+    <asw></asw>
+    <weight>10</weight>	
+</question>

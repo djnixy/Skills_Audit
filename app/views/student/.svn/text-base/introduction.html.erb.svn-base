@@ -1,0 +1,14 @@
+<%#
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+%>
+<div class="introduction">
+<% if @introduction == 1 %>
+You have a test available! Click Start button to begin.<br /><br />
+<br />
+<%= button_to "Start", :action => :exam, :id => @st_exam.exam.get_first_q_ex %>
+<% else %>
+You do not have a test available. Thank you.<br /><br />
+<a href="logout/">Logout</a>
+<% end %>
+</div>

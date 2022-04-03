@@ -1,0 +1,41 @@
+:Next Button, Back Button:
+
+-Clicking next question button when question is not answered will bring up a prompt asking to student if they want to skip or answer
+-at end of test return students to skipped questions
+
+
+:editing a test with a user in it from admin panel will give an error
+
+
+:spelling, dark borders around word groups and light borders around each word
+
+:student without a test, gets an errors page when looking at last results
+:needs a page saying no results found
+
+:Report
+- need a flag for correct and incorrect answer for teacher marking
+- reports on tests and bar graphs of all tests 
+
+AS OF 21/11/08
+ - Depreciated Questions/Exams
+ - Marked Questions
+ - Firefox 2.0 Breaks CSS =(
+ - Make Draggable In Drag/Drop More Obvious
+ - Question Text/ Help Text / Answer Text (Choices etc) Need to look different to each other.
+ - Different Colours Than Student View for Teacher View.
+ - Student with no exams entering last_result breaks.
+ - need Admin/Logout
+ - need to display logout button only if someone is logged in
+ - Once an exam is finished students can go back with browser which breaks. Maybe redirect them to introduction if @exam == nil?
+ - Logout needs a confirm message ("Do you want to log out")
+ - Questions need a type as a field instead of as a part of the xml (to speed up loading times)
+ - Exams need a default type in the database (for sorting of questions at Modify_Exam page)
+ - Teacher Modify_Exam page needs to sort by question type (Numeracy etc)
+ - 
+
+28 22 08
++ Text size buttons top right during exams
++ timestamps on old reports
+- links to admin xml and create question pages
++ Examdd and exam_warning need to me merged and return a value
+- + - text fint needs more tags to increase

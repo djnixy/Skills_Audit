@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3q2Detergent.xml
+    Created on : October 22, 2008, 12:33 PM
+    Author     : Niki Akbar
+    Description: Short Answer
+-->
+
+<question category="Literacy" subcategory="Short Answer">
+    <qtype multipart="slave">Short Answer</qtype>
+    <qtext>If this cleaning agent is accidentally drunk, what actions would you take?</qtext>
+    <qamount>0</qamount>
+    <qsummary>Detergent Slave question: Cleaning agent injested actions</qsummary>
+    <asw></asw>
+    <weight>10</weight>	
+</question>

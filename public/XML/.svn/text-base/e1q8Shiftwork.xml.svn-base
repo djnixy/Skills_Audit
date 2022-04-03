@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1q8Shiftwork.xml
+    Created on : October 20, 2008, 1:05 PM
+    Author     : Niki Akbar
+    Description: Spelling
+-->
+
+<question category="Literacy" subcategory="Spelling">
+    <qtype>Spelling</qtype>
+    <qtext>Select the correct spelling for the following words:</qtext>
+    <qamount>36</qamount>
+    <qsummary>Correct spelling selection, multiple spelling choices</qsummary>
+    <q id="1" subid="1">conferance</q>
+    <q id="1" subid="2">conference</q>
+    <q id="1" subid="3">confarence</q>
+
+    <q id="2" subid="1">mesage</q>
+    <q id="2" subid="2">messege</q>
+    <q id="2" subid="3">message</q>
+
+    <q id="3" subid="1">infermation</q>
+    <q id="3" subid="2">information</q>
+    <q id="3" subid="3">imformation</q>
+
+    <q id="4" subid="1">supervisor</q>        
+    <q id="4" subid="2">suporviser</q>
+    <q id="4" subid="3">superviser</q>
+
+    <q id="5" subid="1">corespondance</q>
+    <q id="5" subid="2">correspondence</q>
+    <q id="5" subid="3">correspondince</q>
+
+    <q id="6" subid="1">punktuation</q>
+    <q id="6" subid="2">punctuation</q>
+    <q id="6" subid="3">punctuasion</q>
+
+    <q id="7" subid="1">travell</q>
+    <q id="7" subid="2">travel</q>        
+    <q id="7" subid="3">travvel</q>
+
+    <q id="8" subid="1">recieve</q>
+    <q id="8" subid="2">receeve</q>
+    <q id="8" subid="3">receive</q>
+
+    <q id="9" subid="1">communication</q>
+    <q id="9" subid="2">comunication</q>
+    <q id="9" subid="3">communicasion</q>
+
+    <q id="10" subid="1">accommodation</q>
+    <q id="10" subid="2">acommodation</q>
+    <q id="10" subid="3">accomodation</q>
+
+    <q id="11" subid="1">attach</q>
+    <q id="11" subid="2">attatch</q>
+    <q id="11" subid="3">atatch</q>
+
+    <q id="12" subid="1">bussness</q>
+    <q id="12" subid="2">business</q>
+    <q id="12" subid="3">bussiness</q>
+
+    <asw>2, 3, 2, 1, 2, 2, 2, 3, 1, 1, 1, 2</asw>
+    <weight>10</weight>	
+</question>

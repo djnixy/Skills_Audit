@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+<!--
+body {
+  font:normal 12px verdana;
+  margin: 4px;
+  padding: 5px;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+object {/*visibility:hidden;*/}
+
+h1 {color:#00A7BF;	font-size:20px;}
+h2 {color:#00A7BF;	font-size:18px;}	
+h3 {color:#00A7BF;	font-size:16px;}
+h4 {color:#00A7BF;	font-size:12px;}
+
+.correct{color: green;}
+.incorrect{color: red;}
+.answer{color: blue;}
+
+tr, td {padding: 3px;}
+ul, li {font-weight: normal;}
+
+#header h1 {text-indent: -9999px;}
+#header {
+  background: url(images/header.jpg);
+  height: 216px;
+  width: 784px;
+  z-index: 1;
+}
+	
+#menu {
+float: left;
+margin: -130px 0 0 650px}
+
+#container {
+background: url(images/background.jpg) repeat-y;
+width: 698px;
+min-height: 300px;
+margin: -60px 0 0 86px;
+padding-bottom: 30px; }
+
+#content {
+padding: 0 200px 0 30px;}
+
+#footer {
+background: url(images/footer.jpg) no-repeat;
+width: 711px;
+height: 33px;
+margin: -20px 0 0 73px;}
+
+#junk {display: none;}
+
+#question{
+color: #000;
+font-weight: bold;       
+}
+
+.questionChoice, #njs {line-height: 30px;}
+
+#buttons, #skip, #submitdiv {
+display: inline;}
+
+#submitdiv {width: 38px; height: 37px; 
+background: url(images/nextbutton.png) no-repeat top left;
+text-indent: -1000px;}
+
+div#commentForm {    
+float:right; width:800px; margin: 0px 20px 0px 20px;  display:none;}

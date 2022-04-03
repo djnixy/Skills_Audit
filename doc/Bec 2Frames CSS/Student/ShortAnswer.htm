@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>Skills Audit Tool</title>
+  <link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <script src="/javascripts/prototype.js?1223854109" type="text/javascript"></script>
+  <script src="/javascripts/scriptaculous.js?1223854109" type="text/javascript"></script>
+  <script src="/javascripts/flash.js?1224045021" type="text/javascript"></script>
+</head>
+<body >
+  <div id="header"><h1>Skills Audit Tool</h1></div>
+  <div id="menu">
+    <span id="logout"><a href="/student/logout">Logout</a></span> || 
+    <span id="main"><a href="/">Main</a></span>
+  </div>
+<div id="container">
+<div id="content">
+<div id="notice"></div><br />
+
+<div id='question'><p>What is the capital of Victoria?</p></div>
+<form action="/student/answer?question_id=7&amp;sortable_xhr=false" class="new_result" id="new_result" method="post">
+    
+    
+        <input id="result_answer" name="result[answer]" size="30" type="text" />
+      
+    <br>
+    
+    <br />
+    <div id="buttons">
+    <div id="skip"><input class="submit" id="result_submit" name="commit" onclick="skipdd()" type="submit" value="Skip" /></div><div id="submitdiv"><input class="submit" id="result_submit" name="commit" type="submit" value="Next Question" /></div>
+  </div>
+</form>
+    <br />
+    <br />
+    <br />
+<div id="helpbutton"><button type= "submit" class="help" onclick="toggleLayer('commentForm')" > 
+        Help
+        </button>
+</div>
+</div>
+<script type="text/javascript">
+onload=showdd()
+</script>
+
+<script type="text/javascript">
+onload=timeout()
+</script>
+
+    <div id="commentForm">
+	<object type="application/x-shockwave-flash" data="/flash/short_answer.swf"  width="550" height="400" id="simplemovie" >
+    	<param name="movie" value="/flash/short_answer.swf" /> 
+		<param name="loop" value="false" />
+	</object>
+</div>
+
+ </div>
+<div id="footer"></div>
+
+
+</body>
+</html>

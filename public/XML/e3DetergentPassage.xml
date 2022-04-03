@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3DetergentPassage.xml
+    Created on : October 22, 2008, 12:34 PM
+    Author     : Niki Akbar
+    Description: Dishwashing Detergent passage, some question needs to be answered accoding to this passage
+-->
+
+<question category="Literacy" subcategory="Passage">
+    <qtype multipart="master">Multipart</qtype>
+    <qtext><![CDATA[
+        <h2>DISHWASHING DETERGENT</h2>
+
+        <h3>Directions for use:</h3>
+        For best results use in hot water. Add 50mL of detergent to 12 litres of water. 
+        Let greasy items soak for a couple of minutes to let detergent work. 
+
+        <h3>Safety Directions:</h3>
+        Keep out of reach of children. Do not mix with other cleaning products.  
+        People with sensitive hands should use gloves when washing with this product.
+
+        <h3>First Aid:</h3>
+        If swallowed, give water to drink. Do not induce vomiting. Seek medical attention. 
+        If in eyes, open and flush with plenty of water.
+
+        ]]>
+    </qtext>
+    <qsummary>Detergent test slave text: </qsummary>
+</question>

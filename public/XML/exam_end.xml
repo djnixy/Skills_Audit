@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Decimal" choices="4">
+		<qtype>1</qtype>
+		<qtext>YOU ARE OUT OF QUESTIONS WHY ARE YOU STILL HERE</qtext>
+		<qamount>4</qamount>
+                <qsummary>Exam end, should not be seen</qsummary>
+		<q id="1">DUNNO</q>
+		<q id="2">IVE ALREADY GONE</q>
+		<q id="3">THINKING ABOUT STAYING FOR A BIT</q>
+		<q id="4">IM LONELY</q>
+		<asw>1</asw>
+		<weight>10</weight>	
+    	</question>

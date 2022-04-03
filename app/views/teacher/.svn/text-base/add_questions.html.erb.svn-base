@@ -1,0 +1,45 @@
+
+
+<%= flash[:notice] %>
+<div>
+<%# form_tag "/teacher/add_questions/" + @exam.id.to_s do |f| %>
+<% select_type = 
+    {"Numeracy", "Numeracy", "Literacy", "Literacy", "Decimal","Decimal", "All", "All"}
+  %>
+
+<h1><%= @exam.name.to_s %>     </h1> 
+<div>
+  <% form_tag '/teacher/save_order?exam_id=' + @exam.id.to_s  do %>
+    <%= select_tag :e_type, options_for_select(select_type) %>
+    <%= hidden_field "result", :answer %>
+    <%= exam_submit 'Save question list and display question types',@exam.id %>
+    <%#= submit_tag "Save question list and display question types", :onclick => "examdd(" + ((@questions.length-1) + (@exam_questions.length)).to_s + ", 'exam2')" %>
+     || <%= exam_submit 'Save question list and assign students',@exam.id %>
+    <%#= submit_tag "Save question list and assign students",:onclick => "examdd(" + ((@questions.length-1) + (@exam_questions.length)).to_s + ", 'exam2')", :class=>"Submit"   %>
+    <% end %>
+</div>
+<div id="exam">
+  <h1>Question List</h1>
+    <% x = 0; until x == @questions.length %>
+       <%= question_list x %>
+    <% x += 1 %>
+
+    <% end %>  
+   
+  
+</div>
+
+    <div id="exam2">
+      <h1>Questions in Exam</h1>
+      <%  f = 1; until f== @exam_questions.length%>
+      <div id="item_<%= @exam_questions[f].id %>"><%= render :partial => 'question_add', :object => @exam_questions[f] %><br /></div>
+      <% f += 1 %>
+      <% end %>
+    </div>
+    
+
+</div>
+
+<%#= drop_receiving_element ("exam2", :url =>{ :controller => "cart", :action => "add" }) %>
+<%= sortable_element 'exam',  :dropOnEmpty=>true, :tag => 'div', :handle=>'handle', :constraint=>false,:containment=>['exam2','exam'],:url => { :action => :arrange, :exam_id => @exam.id } %>
+<%= sortable_element 'exam2', :dropOnEmpty=>true, :tag => 'div', :handle=>'handle',:constraint=>false,:containment=>['exam','exam2'] ,:url => { :action => :arrange, :exam_id => @exam.id } %>

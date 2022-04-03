@@ -1,0 +1,18 @@
+class CreateAdmins < ActiveRecord::Migration
+  def self.up
+    create_table :admins do |t|
+      t.string :login_id
+      t.string :name
+      t.boolean :enabled
+      t.string :hashed_password
+      t.string :salt
+
+      t.timestamps
+    end
+    
+  end
+
+  def self.down
+    drop_table :admins
+  end
+end

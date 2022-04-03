@@ -1,0 +1,16 @@
+<h2>View Student's Last Results </h2>
+
+    <% logger.info(@answers.to_s) %>
+
+    <% i = 0; until i == @answers.length %>
+    <%# if question type is master, do not put the text passage (which is master question type 
+    in the results page %>
+    <% unless @answers[i].question.get_type == :master %>
+    Question: <%=h @answers[i].question.get_question.to_s %><br />
+    Response: <span class=<%= "\"" + @answers[i].is_correct + "\"" %>>
+              <%=h @answers[i].get_answer.to_s %></span><br />
+    Correct Answer: <%=h @answers[i].question.get_answer.to_s %><br />
+             <% end %>
+             <% i += 1 %><br />
+
+    <% end %>

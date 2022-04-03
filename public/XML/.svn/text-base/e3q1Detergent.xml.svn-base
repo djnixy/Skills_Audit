@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e3q1Detergent.xml
+    Created on : October 22, 2008, 12:31 PM
+    Author     : Niki Akbar
+    Description: Meaning - Multiple Short Answer
+-->
+
+<question category="Numeracy" subcategory="Meaning">
+    <qtype multipart="slave">Multiple Short Answer</qtype>
+    <qtext>Explain the following words from the passage above IN YOUR OWN WORDS. </qtext>
+    <qamount>4</qamount>
+    <qsummary>Detergent slave question: Multiple short answer: definitions</qsummary>
+    
+    <q id="1">Greasy</q>
+    <q id="2">Sensitive</q>
+    <q id="3">Induce</q>
+    <q id="4">Flush</q>
+    
+    <asw></asw>
+    <weight>10</weight>	
+</question>

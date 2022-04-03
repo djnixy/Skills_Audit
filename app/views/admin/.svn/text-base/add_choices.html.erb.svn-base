@@ -1,0 +1,11 @@
+<h1>Add Choices</h1>
+<% form_tag('/admin/add_choices/' + @question.id.to_s) do |f| %>
+<% i = 0; until i == @choices %>
+    <p>
+      <% logger.debug(@choices.inspect) %>
+        <%= i+1 %>: <%= text_field_tag "choice_input[]"  %>
+    </p>
+    <% i += 1 %>
+<% end %>
+<%= submit_tag "Submit" %>
+<% end %>

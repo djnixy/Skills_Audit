@@ -1,0 +1,14 @@
+<h2>Teacher Details</h2>
+<br />
+<p>
+  <b>Login ID:</b>
+  <%=h @teacher.login_id %> <br />
+  
+  <b>Name:</b>
+  <%=h @teacher.name %> <br />
+
+</p>
+
+
+<%= link_to 'Edit', :action => :edit_teacher, :id => @teacher.id %> |
+<%= link_to 'Back', :action => :index %>

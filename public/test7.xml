@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Word Matching">
+		<qtype>Fill in Blanks</qtype>
+		<qtext>The quick brown %%% jumped over the lazy %%%</qtext>
+                <qamount>2</qamount>
+		<asw>foxdog</asw>
+		<weight>10</weight>	
+    	</question>

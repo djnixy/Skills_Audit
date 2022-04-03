@@ -1,0 +1,23 @@
+<%= form_tag '/teacher/add_questions/' %>
+<div id="t_list">
+  <span class="t_head"><h2>Select an Exam</h2></span>
+  
+  <br />
+  
+  <%= flash[:notice]  %>
+
+  <ul>
+  <% i = 0; for e in @exams %>
+        <li>
+          <%= radio_button_tag :exam_selection, e.id %> 
+          <%=  e.id.to_s + ": " + e.name + " - " + e.updated_at.to_s %>
+        </li>
+    <% i += 1 %>
+  <% end %>
+  </ul>
+  <%= submit_tag "View Student Reports"  %>
+
+  </form>
+</div>
+
+<%= button_to "New Exam", :action=>:create_new_exam %>

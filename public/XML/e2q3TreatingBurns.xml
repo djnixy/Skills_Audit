@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q3TreatingBurns.xml
+    Created on : October 13, 2008, 11:25 AM
+    Author     : Niki Akbar
+    Description: Word Matching - Arrange Order
+-->
+
+<question category="Literacy" subcategory="Word Matching">
+    <qtype multipart="slave">Arrange Order</qtype>
+    <qtext>Arrange these steps from top to bottom to show the correct order when treating a chemical burn to the eyes:</qtext>
+    <qamount>4</qamount>
+    <qsummary>Treating Burns slave: Arrange chemical treating steps in the correct order</qsummary>
+    
+    <q id="1">Cover the eye with a sterile dressing.</q>
+    <q id="2">Wash the eye with running water.</q>
+    <q id="3">Seek medical attention.</q>
+    <q id="4">Flush the eye for up to 20 minutes.</q>
+    
+    <asw>4,3,1,2</asw>
+    <weight>10</weight>	
+</question>
+
+

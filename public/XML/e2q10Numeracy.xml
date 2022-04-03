@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q10Numeracy.xml
+    Created on : October 22, 2008, 11:22 AM
+    Author     : Niki Akbar
+    Description: Numeracy questions Question 10
+-->
+
+<question category="Numeracy" subcategory="Metric Conversion">
+    <qtype>Short Answer</qtype>
+    <qtext>Change into kilometres: 15 500 m</qtext>
+    <qamount>0</qamount>
+    <qsummary>Changing meters into kilometers</qsummary>
+    <asw>15.5</asw>
+    <weight>10</weight>	
+</question>

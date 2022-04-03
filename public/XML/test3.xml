@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Numeracy" subcategory="Multiplication">
+		<qtype>True False</qtype>
+		<qtext>5 times 10 equals 51</qtext>
+		<qamount>Demo multiplication</qamount>
+                <qsummary>Test</qsummary>
+		<q id="1">True</q>
+		<q id="2">False</q>
+		<asw>2</asw>
+		<weight>10</weight>	
+    	</question>

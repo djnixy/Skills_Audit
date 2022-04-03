@@ -1,0 +1,33 @@
+<h2>Create New Admin</h2>
+
+<%= error_messages_for :admin %>
+
+<% form_for @admin, :url => { :action => "create_admin", :controller => :admin }  do |f| %>
+    
+
+    <p>
+    <b>Login ID</b><br />
+    <%= f.text_field :login_id, :size => 40 %>
+  </p>
+
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name, :size => 40 %>
+  </p>
+  
+  <p>
+    <b>Password</b><br />
+    <%= f.password_field :password, :size => 40 %>
+  </p>
+
+  <p>
+    <b>Confirm Password</b><br />
+    <%= f.password_field :password_confirmation, :size => 40 %>
+  </p>
+
+  <p>
+    <%= f.submit "Add Admin", :class => "Submit" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', :action => :index %>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Numeracy" subcategory="">
+		<qtype>Multiple Choice</qtype>
+		<qtext>10+2 * 4 = </qtext>
+		<qamount>6</qamount>
+		<q id="1">18</q>
+		<q id="2">20</q>
+		<q id="3">22</q>
+		<q id="4">46</q>
+		<q id="5">48</q>
+		<q id="6">50</q>
+		<asw>1</asw>
+		<weight>10</weight>	
+    	</question>

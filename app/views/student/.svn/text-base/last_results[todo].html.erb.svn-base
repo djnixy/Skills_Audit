@@ -1,0 +1,48 @@
+    <% logger.info(@answers.to_s) %>
+    <br />
+    <% i = 0; until i == @answers.length %>
+    <% case @answers[i].question.get_type 
+       when :blanks, :calculation %>
+            <% thequestion = @answers[i].question.get_question.to_s %>
+            <% thequestion = thequestion.split(/###/) %>
+            <% thequestion[0] = thequestion[0].gsub(/%%%/, "___") %>
+    Question: <%=h thequestion[0] %> <br />
+    Response: <span class=<%= "\"" + @answers[i].is_correct + "\"" %>>
+              <% if (@answers[i].question.get_type == :blanks) %>
+                    <% theresponse = @answers[i].question.get_question.to_s %>
+                    <% theresponse = theresponse.split(/%%%/) %>
+                    <% theresponseanswer = @answers[i].get_answer.to_s.split(/,/) %>
+                    <% a = 0; until a == theresponseanswer.length %>
+                        <% theresponse[a] = theresponse[a] + theresponseanswer[a] %>
+                        <%= theresponse[a] %>
+                        <% a += 1 %>
+                    <% end %>
+                <% else %>
+                    <%=h @answers[i].get_answer.to_s.gsub(/,/, ", ") %>
+                <% end %>
+                </span><br />
+                
+    Correct Answer: <% if @answers[i].question.get_type == :blanks %>
+                        <% correctanswer = @answers[i].question.get_question.to_s %>
+                        <% correctanswer = correctanswer.split(/%%%/) %>
+                        <% correctansweranswers = @answers[i].question.get_answer.to_s.split(/,/) %>
+                        <% e = 0; until e == correctansweranswers.length %>
+                            <% correctanswer[e] = correctanswer[e] + correctansweranswers[e] %>
+                            <%= correctanswer[e] %>
+                            <% e += 1 %>
+                        <% end %>
+                     <% else %>
+                        <% correctanswer = @answers[i].question.get_answer.to_s.gsub(/,/, ", ") %>
+                        <%= correctanswer %> <br />
+                     <% end %>
+                     <br />
+    <% else %>
+    Question: <%=h @answers[i].question.get_question.to_s %><br />
+    Response: <span class=<%= "\"" + @answers[i].is_correct + "\"" %>>
+              <%=h @answers[i].get_answer.to_s.gsub(/,/, ", ") %></span><br />
+                <% correctanswer = @answers[i].question.get_answer.to_s.gsub(/,/, ", ") %>
+    Correct Answer: <%= correctanswer %> <br />
+        <% end %>
+<br />
+        <% i += 1 %>
+    <% end %>

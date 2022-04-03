@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e1q2Shiftwork.xml
+    Created on : October 13, 2008, 11:25 AM
+    Author     : Niki Akbar
+    Description: Word matching - Arrange order
+-->
+
+<question category="Literacy" subcategory="Word Matching">
+    <qtype multipart="slave">Arrange Order</qtype>
+    <qtext>Order these points in the order they occur in the passage:</qtext>
+    <qamount>4</qamount>
+    <qsummary>Jobs involving shiftwork slave: Order these points in the order they occur in the passage</qsummary>
+
+    <q id="1">Your body clock is normally set for actvity during the daytime and for rest and relaxation during the night</q>
+    <q id="2">There can also be benefits to working irregular hours</q>
+    <q id="3">If shift workers have to work excessive overtime the risk of fatigue is increased</q>
+    <q id="4">For some workers, working irregular hours poses no problems at all</q>
+
+    <asw>4,3,1,2</asw>
+    <weight>10</weight>
+</question>

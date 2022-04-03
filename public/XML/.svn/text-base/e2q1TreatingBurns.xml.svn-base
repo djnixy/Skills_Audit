@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : e2q1TreatingBurns.xml
+    Created on : October 15, 2008, 11:25 AM
+    Author     : Niki Akbar
+    Description: Word matching
+-->
+
+
+<question category="Literacy" subcategory="Word Matching">
+    <qtype multipart="slave">Word Match</qtype>
+    <qtext>Match the words in the boxes with the following meanings:</qtext>
+    <qamount>12</qamount>
+    <qsummary>Treating Burns slave: Match the words with the meanings</qsummary>
+
+    <q id="1" type="match">General Rules</q>
+    <q id="2" type="word">Sterile</q>
+
+    <q id="3" type="match">Keep from happening</q>
+    <q id="4" type="word">Seek</q>
+         
+    <q id="5" type="match">Taken away</q>
+    <q id="6" type="word">Prevent</q>
+
+    <q id="7" type="match">Keep a careful check on</q>
+    <q id="8" type="word">Monitor</q>
+    
+    <q id="9" type="match">Free from germs</q>
+    <q id="10" type="word">Principles</q>
+    
+    <q id="11" type="match">Look for</q>
+    <q id="12" type="word">Removed</q>
+    
+    <asw>2,3</asw>
+    <weight>10</weight>	
+</question>

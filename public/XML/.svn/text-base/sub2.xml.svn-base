@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<question category="Literacy" subcategory="Word Matching">
+		<qtype multipart="slave">Fill in Blanks</qtype>
+		<qtext>sub2</qtext>
+                <qamount>2</qamount>
+                <qsummary>Test slave</qsummary>
+		<asw>fox,dog</asw>
+		<weight>10</weight>	
+    	</question>
